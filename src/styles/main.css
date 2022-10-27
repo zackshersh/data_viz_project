@@ -1,0 +1,16 @@
+
+
+
+
+/* PAGE SIZING STUFF */
+.Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Content-Wrapper {
+    max-width: 992px;
+    width: 100%;
+    padding: 12px;
+}

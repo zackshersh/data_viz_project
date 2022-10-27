@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import data from "./data/worldbank_climate_crop_refactor.json"
+import Header from "./components/Header";
+import "./styles/main.css"
+import Map from "./components/Map";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <main>
+            <Map />
+        </main>
     </div>
   );
 }
 
 export default App;
+
