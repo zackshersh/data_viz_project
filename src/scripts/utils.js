@@ -1,5 +1,7 @@
+import data from "../data/worldbank_climatedata_cropped.json"
+
 function refactorJSON(){
-    // console.log(data)
+    console.log(data)
     let obj = {};
     data.forEach((row,i) => {
         let value = row.value;
@@ -16,7 +18,8 @@ function refactorJSON(){
 
         if(!obj[row.country_code]){
             let newObj = {};
-            newObj[row.series_name] = value
+            newObj.name = row.country_name
+            newObj[row.series_name] = value;
             obj[row.country_code] = newObj;
         } else {
             let existingRow = obj[row.country_code];
@@ -25,4 +28,10 @@ function refactorJSON(){
     })
     console.log(obj)
     console.log(JSON.stringify(obj))
+}
+
+// refactorJSON()
+
+export function rndmFlt(max){
+    return Math.random()*max;
 }
