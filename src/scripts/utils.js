@@ -30,8 +30,34 @@ function refactorJSON(){
     console.log(JSON.stringify(obj))
 }
 
-// refactorJSON()
 
 export function rndmFlt(max){
     return Math.random()*max;
+}
+
+export function rndmInt(max){
+    return Math.floor(Math.random()*max)
+}
+
+export function lerp(a,b,t){
+    return a*(1-t)+b*t
+}
+
+export function exerp(a,b,t){
+    return lerp(a,b,Math.pow(t,0.5));
+}
+
+export function colorString({r,g,b}){
+    return `rgb(${r},${g},${b})`
+}
+
+export function colorLerp(a,b,t){
+    let rgb = {
+        r: exerp(a.r,b.r,t),
+        g: exerp(a.g,b.g,t),
+        b: exerp(a.b,b.b,t)
+
+    }
+
+    return colorString(rgb);
 }

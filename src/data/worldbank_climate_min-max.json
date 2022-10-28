@@ -1,0 +1,46 @@
+{
+    "Access to electricity (% of total population)": {
+        "min": 9,
+        "max": 100
+    },
+    "CO2 emissions per capita (metric tons)": {
+        "min": 0.02,
+        "max": 49.05
+    },
+    "CO2 emissions, total (KtCO2)": {
+        "min": 3.67,
+        "max": 7031916.21
+    },
+    "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": {
+        "min": 0,
+        "max": 9.226586308
+    },
+    "Energy use per capita (kilograms of oil equivalent)": {
+        "min": 142.32,
+        "max": 16404.69
+    },
+    "GDP ($)": {
+        "min": 29328076.3,
+        "max": 14296900000000
+    },
+    "Land area below 5m (% of land area)": {
+        "min": 0,
+        "max": 100
+    },
+    "Population": {
+        "min": 1468,
+        "max": 1338299512
+    },
+    "Population below 5m (% of total)": {
+        "min": 0,
+        "max": 100
+    },
+    "Projected annual precipitation change (2045-2065, mm)": {
+        "min": 21,
+        "max": 642
+    },
+    "Projected annual temperature change (2045-2065, Celsius)": {
+        "min": 0.2,
+        "max": 1.5
+    }
+}
