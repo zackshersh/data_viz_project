@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import ContentWrapper from './ContentWrapper';
 
+import "../styles/scatter.css"
+
 function Scatter({}) {
-
-
 
     return (
         <div className='Scatter Container'>

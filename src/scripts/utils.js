@@ -1,4 +1,6 @@
 import data from "../data/worldbank_climatedata_cropped.json"
+import refactoredData from "../data/worldbank_climate_crop_refactor_floats.json"
+import dataProps from "../data/worldbank_climate_props.json"
 
 function refactorJSON(){
     console.log(data)
@@ -30,6 +32,7 @@ function refactorJSON(){
     console.log(obj)
     console.log(JSON.stringify(obj))
 }
+
 
 // refactorJSON();
 

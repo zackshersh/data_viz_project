@@ -101,7 +101,6 @@ export class MapHandler {
                 valB = valB[2];  
             } 
 
-            console.log(simplifyNumber(valB))
 
             let string = `
                 <p>${countryData.name}</p>

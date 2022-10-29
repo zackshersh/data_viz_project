@@ -18,3 +18,9 @@
 
 
 
+/* STUFF SHARED BY BOTH GRAPHS */
+
+.tooltip > p, .tooltip > div > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

@@ -32,6 +32,7 @@ function App() {
         let val = e.target.value;
         console.log(val)
         mapHandler.changeParam(val);
+        scatterHandler.changeParam(val);
         setParamB(val);
     }
 
