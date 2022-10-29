@@ -1,9 +1,9 @@
 import * as d3 from "d3";
 import { feature } from "topojson";
 import TopoJSON from "../data/TopoJSON.json";
-import data from "../data/worldbank_climate_crop_refactor.json";
+import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { colorLerp, colorString, lerp, rndmFlt, rndmInt } from "./utils";
+import { colorLerp, colorString, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class MapHandler {
     constructor(svgClass, parentClass){
@@ -21,7 +21,7 @@ export class MapHandler {
         this.pathNum = this.mapData.objects.countries.geometries.length;
 
         this.params = {
-            a: "CO2 emissions per capita (metric tons)",
+            a: "CO2 emissions, total (KtCO2)",
             b: "GDP ($)"
         };
 
@@ -52,61 +52,83 @@ export class MapHandler {
         
         this.createTooltip();
         this.generateMap();
+    }
 
-
+    setParams(a,b){
+        this.params.a = a;
+        this.params.b = b;
     }
 
     createTooltip(){
+
+        if(this.tooltip){
+            // return
+        }
+
         this.tooltip = d3.select(this.parentClass)
             .append("div")
             .attr("class","tooltip")
             .style("position", "absolute")
-            .text("Doo Bop");
+            .style("display","none")
+            .text("Doo Bop")
 
 
-        const tooltipDisplay = false; 
+
+
+        let tooltipDisplay = false; 
         
         const pathMove = (e) => {
+            if(!tooltipDisplay) return;
+
             let bbox = e.target.getBBox();
             let parentBox = e.target.parentNode.getBoundingClientRect();
 
             let relX = e.clientX - parentBox.x;
             let relY = e.clientY - parentBox.y;
 
-            this.tooltip.style("top", e.clientY+"px");
             this.tooltip.style("left", relX+"px");
             this.tooltip.style("top", relY+"px");
+
+            let countryData = this.data[e.target.getAttribute("country-code")];
+
+            let valA = countryData[this.params.a];
+            let valB = countryData[this.params.b];
+
+            if(!valA) valA = "No Data"; if(!valB) valB = "No Data"
+
+            // picks out the difference value from the data that's __ to __
+            if(Array.isArray(valB) && valB){
+                valB = valB[2];  
+            } 
+
+            console.log(simplifyNumber(valB))
+
+            let string = `
+                <p>${countryData.name}</p>
+                <div class="single-stat-container">
+                    <p>${this.params.a}: ${valA}</p>
+                    <p>${this.params.b}: ${valB}</p>
+                </div>
+            `
+            this.tooltip.html(string)
         } 
         
         const pathEnter = (e) => {
             this.tooltip.style("display","block")
-
+            tooltipDisplay = true;
         }
 
         const pathLeave = (e) => {
             this.tooltip.style("display","none")
+            tooltipDisplay = false;
         }
 
-        this.paths.forEach(path => path.addEventListener("mousemove",pathMove))
-        this.paths.forEach(path => path.addEventListener("mouseenter",pathEnter))
-        this.paths.forEach(path => path.addEventListener("mouseleave",pathLeave))
+        let validCountries = document.querySelectorAll(".valid-country");
 
+        validCountries.forEach(path => path.addEventListener("mousemove",pathMove))
+        validCountries.forEach(path => path.addEventListener("mouseenter",pathEnter))
+        validCountries.forEach(path => path.addEventListener("mouseleave",pathLeave))
 
-        d3.select(this.svgClass)
-            .selectAll("path")
-            // .on("mouseenter", function(e){
-            //     let targetPath = e.target;
-            //     let bbox = targetPath.getBBox();
-            //     console.log(bbox);
-            //     let parentBox = this.parentNode.getBoundingClientRect();
-            //     console.log(parentBox);
-
-            //     document.querySelector(".tooltip").style.top = bbox.y;
-
-
-            //     // console.log(relX,relY)
-
-            // })
     }
 
 
@@ -175,14 +197,13 @@ export class MapHandler {
                 // if(typeof valB == "object" && paramB) valB = valB[2];
 
                 if(Array.isArray(valB) && paramB) {
-                    console.log(valB)
                     valB = valB[2];
                 } else {
                     // console.log(valA, "YES")
                 }
 
                 // console.log(electric);
-                if(!paramA || !paramB){
+                if(!valA || !valB){
                     vals.push("no data")
                 } else {
                     let minMaxA = minMaxData[paramA];
@@ -193,24 +214,29 @@ export class MapHandler {
 
                     let a = (valA - minMaxA.min)/rangeA;
                     let b = (valB - minMaxB.min)/rangeB;
+
+                    
                     // let minMax = minMaxData["GDP ($)"];
                     // let range = minMax.max - minMax.min;
                     // let t = (electric - minMax.min)/(range);
 
-                    vals.push(b/a);
+                    vals.push(1/(a*b));
 
                 }
 
             }
         })
 
-        // console.log(vals);
-        this.setColors(vals);
+        // Makes it so the lowest value is 0 and highest is 1
+        let normalizedVals = normalize(vals)
+        this.setColors(normalizedVals);
     }
 
     setColors(arr){
+
         this.paths.forEach((path,i) => {
             let t = arr[i];
+            // console.log(t, path.getAttribute("country"));
             if(t == "no data" || t == null){
                 path.style.fill = colorString(this.colors.noData)
             } else {

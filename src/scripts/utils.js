@@ -11,9 +11,10 @@ function refactorJSON(){
             value = parseFloat(value)
         } else if (value.includes("to")){
             let split = value.split(" to ")
-            let v1 = parseInt(split[0]); let v2 = parseInt(split[1]);
-            
-            value = [v1,v2,v2-v1]
+            let v1 = parseFloat(split[0]); let v2 = parseInt(split[1]);
+            let dif = Math.round((v2-v1)*10)/10
+
+            value = [v1,v2,dif]
         }
 
         if(!obj[row.country_code]){
@@ -30,6 +31,7 @@ function refactorJSON(){
     console.log(JSON.stringify(obj))
 }
 
+// refactorJSON();
 
 export function rndmFlt(max){
     return Math.random()*max;
@@ -47,17 +49,61 @@ export function exerp(a,b,t){
     return lerp(a,b,Math.pow(t,0.5));
 }
 
+
 export function colorString({r,g,b}){
     return `rgb(${r},${g},${b})`
 }
 
 export function colorLerp(a,b,t){
     let rgb = {
-        r: exerp(a.r,b.r,t),
-        g: exerp(a.g,b.g,t),
-        b: exerp(a.b,b.b,t)
+        r: lerp(a.r,b.r,t),
+        g: lerp(a.g,b.g,t),
+        b: lerp(a.b,b.b,t)
 
     }
 
     return colorString(rgb);
+}
+
+// reduces range of array from a lowest value of 0 to a highest value of 1
+export function normalize(arr){
+
+    let pruned = [];
+    arr.forEach(num => {
+        if(num && typeof num != "string") pruned.push(num);
+    })
+
+    let max = Math.max(...pruned); let min = Math.min(...pruned);
+
+    let norm = [];
+
+    pruned.forEach(num => norm.push((num-min)/(max-min)));
+
+    return norm
+}
+
+// takes large numbers and returns millions or billions or trillions and such
+// export function simplifyNumber(number){
+//     let abs = Math.abs(Math.floor(number));
+//     console.log(abs);
+
+// }
+
+export function simplifyNumber(labelValue) {
+
+    // Nine Zeroes for Billions
+    return Math.abs(Number(labelValue)) >= 1.0e+9
+
+    ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B"
+    // Six Zeroes for Millions 
+    : Math.abs(Number(labelValue)) >= 1.0e+6
+
+    ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M"
+    // Three Zeroes for Thousands
+    : Math.abs(Number(labelValue)) >= 1.0e+3
+
+    ? (Math.abs(Number(labelValue)) / 1.0e+3).toFixed(2) + "K"
+
+    : Math.abs(Number(labelValue));
+
 }

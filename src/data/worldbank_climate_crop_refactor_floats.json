@@ -1,0 +1,4984 @@
+{
+    "ABW": {
+        "name": "Aruba",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 21.68,
+        "CO2 emissions, total (KtCO2)": 2288.21,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 29.57,
+        "Population": 107488,
+        "Population below 5m (% of total)": 29.57,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -121,
+            24,
+            145
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            2,
+            0.5
+        ]
+    },
+    "ADO": {
+        "name": "Andorra",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.53,
+        "CO2 emissions, total (KtCO2)": 539.05,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3712034266.51,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 84864,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -113,
+            -22,
+            91
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "AFG": {
+        "name": "Afghanistan",
+        "Access to electricity (% of total population)": 15.6,
+        "CO2 emissions per capita (metric tons)": 0.03,
+        "CO2 emissions, total (KtCO2)": 814.07,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.059290169,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 11757405532.51,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 34385068.12,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -58,
+            13,
+            71
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            3,
+            0.7
+        ]
+    },
+    "AGO": {
+        "name": "Angola",
+        "Access to electricity (% of total population)": 26.2,
+        "CO2 emissions per capita (metric tons)": 1.35,
+        "CO2 emissions, total (KtCO2)": 24370.88,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.011764676,
+        "Energy use per capita (kilograms of oil equivalent)": 641.11,
+        "GDP ($)": 84178512502.43,
+        "Land area below 5m (% of land area)": 0.21,
+        "Population": 19081912,
+        "Population below 5m (% of total)": 2.06,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -89,
+            75,
+            164
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "ALB": {
+        "name": "Albania",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.31,
+        "CO2 emissions, total (KtCO2)": 4176.71,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 5.269576993,
+        "Energy use per capita (kilograms of oil equivalent)": 537.83,
+        "GDP ($)": 12968653524.78,
+        "Land area below 5m (% of land area)": 4.97,
+        "Population": 3204284,
+        "Population below 5m (% of total)": 8.21,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -147,
+            -44,
+            103
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "ARE": {
+        "name": "United Arab Emirates",
+        "Access to electricity (% of total population)": 100,
+        "CO2 emissions per capita (metric tons)": 24.98,
+        "CO2 emissions, total (KtCO2)": 155066.43,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 8587.96,
+        "GDP ($)": 261347863149.49,
+        "Land area below 5m (% of land area)": 4.64,
+        "Population": 7511690,
+        "Population below 5m (% of total)": 7.32,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -26,
+            17,
+            43
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            2,
+            -0.2
+        ]
+    },
+    "ARG": {
+        "name": "Argentina",
+        "Access to electricity (% of total population)": 97.2,
+        "CO2 emissions per capita (metric tons)": 4.84,
+        "CO2 emissions, total (KtCO2)": 192378.15,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.167189951,
+        "Energy use per capita (kilograms of oil equivalent)": 1853.33,
+        "GDP ($)": 326676673164.78,
+        "Land area below 5m (% of land area)": 1.23,
+        "Population": 40412376,
+        "Population below 5m (% of total)": 4.49,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -57,
+            52,
+            109
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            2,
+            0.6
+        ]
+    },
+    "ARM": {
+        "name": "Armenia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.8,
+        "CO2 emissions, total (KtCO2)": 5548.17,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.478231101,
+        "Energy use per capita (kilograms of oil equivalent)": 843.18,
+        "GDP ($)": 11662017844.89,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 3092072,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -75,
+            -7,
+            68
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "ASM": {
+        "name": "American Samoa",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000261755,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 17.89,
+        "Population": 68420,
+        "Population below 5m (% of total)": 9.86,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -40,
+            237,
+            277
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "ATG": {
+        "name": "Antigua and Barbuda",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.15,
+        "CO2 emissions, total (KtCO2)": 447.37,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1203314814.81,
+        "Land area below 5m (% of land area)": 32.42,
+        "Population": 88710,
+        "Population below 5m (% of total)": 32.31,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -104,
+            37,
+            141
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "AUS": {
+        "name": "Australia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 18.57,
+        "CO2 emissions, total (KtCO2)": 399218.96,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.047098606,
+        "Energy use per capita (kilograms of oil equivalent)": 5970.87,
+        "GDP ($)": 1039415095376.83,
+        "Land area below 5m (% of land area)": 1.14,
+        "Population": 22328800,
+        "Population below 5m (% of total)": 7.21,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -67,
+            54,
+            121
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "AUT": {
+        "name": "Austria",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.12,
+        "CO2 emissions, total (KtCO2)": 67725.82,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.038152978,
+        "Energy use per capita (kilograms of oil equivalent)": 3784.41,
+        "GDP ($)": 414670756948.77,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 8384745,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -70,
+            27,
+            97
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "AZE": {
+        "name": "Azerbaijan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.38,
+        "CO2 emissions, total (KtCO2)": 47139.29,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.105565067,
+        "Energy use per capita (kilograms of oil equivalent)": 1337.63,
+        "GDP ($)": 46258154819.86,
+        "Land area below 5m (% of land area)": 19.97,
+        "Population": 9047932,
+        "Population below 5m (% of total)": 29.78,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -58,
+            3,
+            61
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "BDI": {
+        "name": "Burundi",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.02,
+        "CO2 emissions, total (KtCO2)": 179.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.377411289,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1168900171.2,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 8382849,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -21,
+            206,
+            227
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "BEL": {
+        "name": "Belgium",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 9.79,
+        "CO2 emissions, total (KtCO2)": 104879.87,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.001692168,
+        "Energy use per capita (kilograms of oil equivalent)": 5299.75,
+        "GDP ($)": 505373713699.78,
+        "Land area below 5m (% of land area)": 9.24,
+        "Population": 10879159,
+        "Population below 5m (% of total)": 14.32,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -64,
+            29,
+            93
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            2,
+            0.6
+        ]
+    },
+    "BEN": {
+        "name": "Benin",
+        "Access to electricity (% of total population)": 24.8,
+        "CO2 emissions per capita (metric tons)": 0.49,
+        "CO2 emissions, total (KtCO2)": 4066.7,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.858274799,
+        "Energy use per capita (kilograms of oil equivalent)": 403.97,
+        "GDP ($)": 6682744914.14,
+        "Land area below 5m (% of land area)": 1.16,
+        "Population": 8849892,
+        "Population below 5m (% of total)": 14.07,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -207,
+            97,
+            304
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "BFA": {
+        "name": "Burkina Faso",
+        "Access to electricity (% of total population)": 14.6,
+        "CO2 emissions per capita (metric tons)": 0.12,
+        "CO2 emissions, total (KtCO2)": 1855.5,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.250036827,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 8045823005.29,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 16468714,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -229,
+            88,
+            317
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            2,
+            -0.2
+        ]
+    },
+    "BGD": {
+        "name": "Bangladesh",
+        "Access to electricity (% of total population)": 41,
+        "CO2 emissions per capita (metric tons)": 0.32,
+        "CO2 emissions, total (KtCO2)": 46526.9,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 4.584694259,
+        "Energy use per capita (kilograms of oil equivalent)": 201.31,
+        "GDP ($)": 79554350677.74,
+        "Land area below 5m (% of land area)": 14.07,
+        "Population": 148692131,
+        "Population below 5m (% of total)": 13.96,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -126,
+            120,
+            246
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "BGR": {
+        "name": "Bulgaria",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.63,
+        "CO2 emissions, total (KtCO2)": 50538.59,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.00855316,
+        "Energy use per capita (kilograms of oil equivalent)": 2304.54,
+        "GDP ($)": 51824867626.65,
+        "Land area below 5m (% of land area)": 0.43,
+        "Population": 7543325,
+        "Population below 5m (% of total)": 1.53,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -127,
+            -21,
+            106
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "BHR": {
+        "name": "Bahrain",
+        "Access to electricity (% of total population)": 99.4,
+        "CO2 emissions per capita (metric tons)": 21.36,
+        "CO2 emissions, total (KtCO2)": 22478.71,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 8096.25,
+        "GDP ($)": 21902892583.96,
+        "Land area below 5m (% of land area)": 39.03,
+        "Population": 1261835,
+        "Population below 5m (% of total)": 66.64,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -19,
+            4,
+            23
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "BHS": {
+        "name": "Bahamas, The",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.46,
+        "CO2 emissions, total (KtCO2)": 2156.2,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 7297903886,
+        "Land area below 5m (% of land area)": 71.99,
+        "Population": 342877,
+        "Population below 5m (% of total)": 46.54,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -96,
+            74,
+            170
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "BIH": {
+        "name": "Bosnia and Herz.",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.29,
+        "CO2 emissions, total (KtCO2)": 31275.84,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.493228499,
+        "Energy use per capita (kilograms of oil equivalent)": 1579.9,
+        "GDP ($)": 18500599161.17,
+        "Land area below 5m (% of land area)": 0.07,
+        "Population": 3760149,
+        "Population below 5m (% of total)": 0.08,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -116,
+            -7,
+            109
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "BLR": {
+        "name": "Belarus",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.54,
+        "CO2 emissions, total (KtCO2)": 62815.71,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.021958552,
+        "Energy use per capita (kilograms of oil equivalent)": 2814.8,
+        "GDP ($)": 60763483146.07,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 9490500,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            8,
+            70,
+            62
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "BLZ": {
+        "name": "Belize",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.32,
+        "CO2 emissions, total (KtCO2)": 425.37,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.806085589,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1358700000,
+        "Land area below 5m (% of land area)": 9.45,
+        "Population": 344700,
+        "Population below 5m (% of total)": 15.78,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -189,
+            16,
+            205
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "BMU": {
+        "name": "Bermuda",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.05,
+        "CO2 emissions, total (KtCO2)": 388.7,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 6067898000,
+        "Land area below 5m (% of land area)": 82.26,
+        "Population": 64600,
+        "Population below 5m (% of total)": 82.26,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -97,
+            60,
+            157
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "BOL": {
+        "name": "Bolivia",
+        "Access to electricity (% of total population)": 77.5,
+        "CO2 emissions per capita (metric tons)": 1.33,
+        "CO2 emissions, total (KtCO2)": 12834.5,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.297429164,
+        "Energy use per capita (kilograms of oil equivalent)": 637.6,
+        "GDP ($)": 16675015771.13,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 9929849,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -91,
+            137,
+            228
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "BRA": {
+        "name": "Brazil",
+        "Access to electricity (% of total population)": 98.3,
+        "CO2 emissions per capita (metric tons)": 2.05,
+        "CO2 emissions, total (KtCO2)": 393219.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.482451028,
+        "Energy use per capita (kilograms of oil equivalent)": 1242.77,
+        "GDP ($)": 1652632229227.61,
+        "Land area below 5m (% of land area)": 1.21,
+        "Population": 194946470,
+        "Population below 5m (% of total)": 4.88,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -95,
+            136,
+            231
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "BRB": {
+        "name": "Barbados",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.97,
+        "CO2 emissions, total (KtCO2)": 1353.12,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3670215312.5,
+        "Land area below 5m (% of land area)": 15.69,
+        "Population": 273331,
+        "Population below 5m (% of total)": 15.69,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -154,
+            14,
+            168
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "BRN": {
+        "name": "Brunei Darussalam",
+        "Access to electricity (% of total population)": 99.7,
+        "CO2 emissions per capita (metric tons)": 27.54,
+        "CO2 emissions, total (KtCO2)": 10593.96,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 7971.32,
+        "GDP ($)": 14393099068.59,
+        "Land area below 5m (% of land area)": 3.34,
+        "Population": 398920,
+        "Population below 5m (% of total)": 9.24,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -185,
+            111,
+            296
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "BTN": {
+        "name": "Bhutan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.05,
+        "CO2 emissions, total (KtCO2)": 733.4,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.013501103,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1257625054.72,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 725940,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -112,
+            298,
+            410
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "BWA": {
+        "name": "Botswana",
+        "Access to electricity (% of total population)": 45.4,
+        "CO2 emissions per capita (metric tons)": 2.48,
+        "CO2 emissions, total (KtCO2)": 4840.44,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.740418784,
+        "Energy use per capita (kilograms of oil equivalent)": 1033.7,
+        "GDP ($)": 13473345712.55,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 2006945,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -106,
+            24,
+            130
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.5,
+            3,
+            0.5
+        ]
+    },
+    "CAF": {
+        "name": "Central African Republic",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.06,
+        "CO2 emissions, total (KtCO2)": 260.36,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.182498508,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1982983854.76,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 4401051,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -73,
+            100,
+            173
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "CAN": {
+        "name": "Canada",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 16.33,
+        "CO2 emissions, total (KtCO2)": 544091.13,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.010743238,
+        "Energy use per capita (kilograms of oil equivalent)": 7531.73,
+        "GDP ($)": 1499107812265.71,
+        "Land area below 5m (% of land area)": 2.39,
+        "Population": 34108752,
+        "Population below 5m (% of total)": 3.99,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            17,
+            88,
+            71
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.6,
+            3,
+            0.4
+        ]
+    },
+    "CHE": {
+        "name": "Switzerland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.28,
+        "CO2 emissions, total (KtCO2)": 40392.01,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.003887884,
+        "Energy use per capita (kilograms of oil equivalent)": 3480.49,
+        "GDP ($)": 502447278285.28,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 7825243,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -89,
+            11,
+            100
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "CHI": {
+        "name": "Channel Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": null,
+        "Population": 153352,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": null,
+        "Projected annual temperature change (2045-2065, Celsius)": null
+    },
+    "CHL": {
+        "name": "Chile",
+        "Access to electricity (% of total population)": 98.5,
+        "CO2 emissions per capita (metric tons)": 4.35,
+        "CO2 emissions, total (KtCO2)": 73108.98,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.260470805,
+        "Energy use per capita (kilograms of oil equivalent)": 1697.57,
+        "GDP ($)": 170741003929.26,
+        "Land area below 5m (% of land area)": 3.08,
+        "Population": 17113688,
+        "Population below 5m (% of total)": 1.61,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -118,
+            24,
+            142
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.2,
+            1,
+            -0.2
+        ]
+    },
+    "CHN": {
+        "name": "China",
+        "Access to electricity (% of total population)": 99.4,
+        "CO2 emissions per capita (metric tons)": 5.31,
+        "CO2 emissions, total (KtCO2)": 7031916.21,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 7.950971475,
+        "Energy use per capita (kilograms of oil equivalent)": 1695.31,
+        "GDP ($)": 4521826899540.68,
+        "Land area below 5m (% of land area)": 1.38,
+        "Population": 1338299511.5,
+        "Population below 5m (% of total)": 8.06,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -37,
+            86,
+            123
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "CIV": {
+        "name": "Cote d'Ivoire",
+        "Access to electricity (% of total population)": 47.3,
+        "CO2 emissions per capita (metric tons)": 0.37,
+        "CO2 emissions, total (KtCO2)": 7014.97,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000757404,
+        "Energy use per capita (kilograms of oil equivalent)": 535.03,
+        "GDP ($)": 23414005259.47,
+        "Land area below 5m (% of land area)": 0.19,
+        "Population": 19737800,
+        "Population below 5m (% of total)": 3.25,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -125,
+            73,
+            198
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "CMR": {
+        "name": "Cameroon",
+        "Access to electricity (% of total population)": 48.7,
+        "CO2 emissions per capita (metric tons)": 0.28,
+        "CO2 emissions, total (KtCO2)": 5302.48,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.072372205,
+        "Energy use per capita (kilograms of oil equivalent)": 360.77,
+        "GDP ($)": 23735512829.1,
+        "Land area below 5m (% of land area)": 0.08,
+        "Population": 19598889,
+        "Population below 5m (% of total)": 0.35,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -71,
+            115,
+            186
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "COG": {
+        "name": "Rep. Congo",
+        "Access to electricity (% of total population)": 37.1,
+        "CO2 emissions per capita (metric tons)": 0.5,
+        "CO2 emissions, total (KtCO2)": 1936.18,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.262896437,
+        "Energy use per capita (kilograms of oil equivalent)": 355.77,
+        "GDP ($)": 11789245042.58,
+        "Land area below 5m (% of land area)": 0.05,
+        "Population": 4042899,
+        "Population below 5m (% of total)": 0.97,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -40,
+            134,
+            174
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "COK": {
+        "name": "Cook Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 3.48,
+        "CO2 emissions, total (KtCO2)": 69.67,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 87.87,
+        "Population": 20288,
+        "Population below 5m (% of total)": 61.97,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -57,
+            174,
+            231
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "COL": {
+        "name": "Colombia",
+        "Access to electricity (% of total population)": 93.6,
+        "CO2 emissions per capita (metric tons)": 1.5,
+        "CO2 emissions, total (KtCO2)": 67700.15,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.657133754,
+        "Energy use per capita (kilograms of oil equivalent)": 697.24,
+        "GDP ($)": 244645672494.99,
+        "Land area below 5m (% of land area)": 0.94,
+        "Population": 46294841,
+        "Population below 5m (% of total)": 2,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -80,
+            199,
+            279
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "COM": {
+        "name": "Comoros",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.18,
+        "CO2 emissions, total (KtCO2)": 124.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.022191159,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 530138454.67,
+        "Land area below 5m (% of land area)": 13.46,
+        "Population": 734750,
+        "Population below 5m (% of total)": 14.04,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -9,
+            140,
+            149
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "CPV": {
+        "name": "Cape Verde",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.63,
+        "CO2 emissions, total (KtCO2)": 308.03,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.009841224,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1550552391.54,
+        "Land area below 5m (% of land area)": 14.52,
+        "Population": 495999,
+        "Population below 5m (% of total)": 13.84,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -32,
+            12,
+            44
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "CRI": {
+        "name": "Costa Rica",
+        "Access to electricity (% of total population)": 99.3,
+        "CO2 emissions per capita (metric tons)": 1.77,
+        "CO2 emissions, total (KtCO2)": 8016.06,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.701045626,
+        "Energy use per capita (kilograms of oil equivalent)": 1067.05,
+        "GDP ($)": 29663614222.94,
+        "Land area below 5m (% of land area)": 2.12,
+        "Population": 4658887,
+        "Population below 5m (% of total)": 0.84,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -239,
+            60,
+            299
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "CUB": {
+        "name": "Cuba",
+        "Access to electricity (% of total population)": 97,
+        "CO2 emissions per capita (metric tons)": 2.79,
+        "CO2 emissions, total (KtCO2)": 31418.86,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.727438086,
+        "Energy use per capita (kilograms of oil equivalent)": 1021.56,
+        "GDP ($)": 62704800000,
+        "Land area below 5m (% of land area)": 12.67,
+        "Population": 11257979,
+        "Population below 5m (% of total)": 10.04,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -108,
+            39,
+            147
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "CUW": {
+        "name": "Curacao",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": null,
+        "Population": 142668.3993,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": null,
+        "Projected annual temperature change (2045-2065, Celsius)": null
+    },
+    "CYM": {
+        "name": "Cayman Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.08,
+        "CO2 emissions, total (KtCO2)": 557.38,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 60.28,
+        "Population": 56230,
+        "Population below 5m (% of total)": 59.59,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -122,
+            39,
+            161
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "CYP": {
+        "name": "Cyprus",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.94,
+        "CO2 emissions, total (KtCO2)": 8555.11,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.002678155,
+        "Energy use per capita (kilograms of oil equivalent)": 2297.72,
+        "GDP ($)": 25371874080.61,
+        "Land area below 5m (% of land area)": 6.42,
+        "Population": 1103647,
+        "Population below 5m (% of total)": 9.66,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -98,
+            -44,
+            54
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "CZE": {
+        "name": "Czech Republic",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 11.22,
+        "CO2 emissions, total (KtCO2)": 116995.64,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.155745988,
+        "Energy use per capita (kilograms of oil equivalent)": 4003.97,
+        "GDP ($)": 216084641518.28,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 10525090,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -43,
+            55,
+            98
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "DEU": {
+        "name": "Germany",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 9.58,
+        "CO2 emissions, total (KtCO2)": 786659.51,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.032824574,
+        "Energy use per capita (kilograms of oil equivalent)": 3889.13,
+        "GDP ($)": 3634525945728.2,
+        "Land area below 5m (% of land area)": 4.92,
+        "Population": 81702329,
+        "Population below 5m (% of total)": 4.42,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -38,
+            57,
+            95
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "DJI": {
+        "name": "Djibouti",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.61,
+        "CO2 emissions, total (KtCO2)": 524.38,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 6.796847046,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 982534421.93,
+        "Land area below 5m (% of land area)": 2.56,
+        "Population": 888716,
+        "Population below 5m (% of total)": 7.63,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -29,
+            57,
+            86
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "DMA": {
+        "name": "Dominica",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.88,
+        "CO2 emissions, total (KtCO2)": 128.35,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 374422222.22,
+        "Land area below 5m (% of land area)": 9.4,
+        "Population": 67757,
+        "Population below 5m (% of total)": 10.43,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -106,
+            42,
+            148
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "DNK": {
+        "name": "Denmark",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.38,
+        "CO2 emissions, total (KtCO2)": 46024.52,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 3368.67,
+        "GDP ($)": 341466969261.28,
+        "Land area below 5m (% of land area)": 17.67,
+        "Population": 5544139,
+        "Population below 5m (% of total)": 18.51,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            21,
+            87,
+            66
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "DOM": {
+        "name": "Dominican Republic",
+        "Access to electricity (% of total population)": 95.9,
+        "CO2 emissions per capita (metric tons)": 2.24,
+        "CO2 emissions, total (KtCO2)": 21616.97,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.078705435,
+        "Energy use per capita (kilograms of oil equivalent)": 826.09,
+        "GDP ($)": 45498608625.37,
+        "Land area below 5m (% of land area)": 4.14,
+        "Population": 9927320,
+        "Population below 5m (% of total)": 2.98,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -128,
+            30,
+            158
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "DZA": {
+        "name": "Algeria",
+        "Access to electricity (% of total population)": 99.3,
+        "CO2 emissions per capita (metric tons)": 3.23,
+        "CO2 emissions, total (KtCO2)": 111304.45,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.03922294,
+        "Energy use per capita (kilograms of oil equivalent)": 1137.56,
+        "GDP ($)": 170989269622.04,
+        "Land area below 5m (% of land area)": 0.35,
+        "Population": 35468208,
+        "Population below 5m (% of total)": 3.53,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -39,
+            4,
+            43
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.4,
+            3,
+            0.6
+        ]
+    },
+    "ECU": {
+        "name": "Ecuador",
+        "Access to electricity (% of total population)": 92.2,
+        "CO2 emissions per capita (metric tons)": 1.91,
+        "CO2 emissions, total (KtCO2)": 26824.11,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.336468818,
+        "Energy use per capita (kilograms of oil equivalent)": 795.97,
+        "GDP ($)": 54208500000,
+        "Land area below 5m (% of land area)": 2.04,
+        "Population": 14464739,
+        "Population below 5m (% of total)": 7.3,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            22,
+            273,
+            251
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "EGY": {
+        "name": "Egypt",
+        "Access to electricity (% of total population)": 99.6,
+        "CO2 emissions per capita (metric tons)": 2.69,
+        "CO2 emissions, total (KtCO2)": 210320.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.012213477,
+        "Energy use per capita (kilograms of oil equivalent)": 903.39,
+        "GDP ($)": 162836363636.36,
+        "Land area below 5m (% of land area)": 4.05,
+        "Population": 81121077,
+        "Population below 5m (% of total)": 25.61,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -20,
+            1,
+            21
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "ERI": {
+        "name": "Eritrea",
+        "Access to electricity (% of total population)": 32,
+        "CO2 emissions per capita (metric tons)": 0.08,
+        "CO2 emissions, total (KtCO2)": 414.37,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 7.323482856,
+        "Energy use per capita (kilograms of oil equivalent)": 142.32,
+        "GDP ($)": 1380162601.63,
+        "Land area below 5m (% of land area)": 3.12,
+        "Population": 5253676,
+        "Population below 5m (% of total)": 1.23,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -55,
+            26,
+            81
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "ESP": {
+        "name": "Spain",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.23,
+        "CO2 emissions, total (KtCO2)": 329285.6,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.729193518,
+        "Energy use per capita (kilograms of oil equivalent)": 2755.91,
+        "GDP ($)": 1593912183689.16,
+        "Land area below 5m (% of land area)": 1.26,
+        "Population": 46081574,
+        "Population below 5m (% of total)": 6.61,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -112,
+            -18,
+            94
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            2,
+            0.5
+        ]
+    },
+    "EST": {
+        "name": "Estonia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 13.64,
+        "CO2 emissions, total (KtCO2)": 18291,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 3542.86,
+        "GDP ($)": 23517187207.78,
+        "Land area below 5m (% of land area)": 3.35,
+        "Population": 1339646,
+        "Population below 5m (% of total)": 7.2,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            33,
+            93,
+            60
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "ETH": {
+        "name": "Ethiopia",
+        "Access to electricity (% of total population)": 17,
+        "CO2 emissions per capita (metric tons)": 0.09,
+        "CO2 emissions, total (KtCO2)": 7106.65,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.263018169,
+        "Energy use per capita (kilograms of oil equivalent)": 402.5,
+        "GDP ($)": 26642461516.19,
+        "Land area below 5m (% of land area)": 0.67,
+        "Population": 82949541,
+        "Population below 5m (% of total)": 0.39,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -42,
+            79,
+            121
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "FIN": {
+        "name": "Finland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.64,
+        "CO2 emissions, total (KtCO2)": 56512.14,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000387043,
+        "Energy use per capita (kilograms of oil equivalent)": 6212.9,
+        "GDP ($)": 270478631852.64,
+        "Land area below 5m (% of land area)": 1.11,
+        "Population": 5363624,
+        "Population below 5m (% of total)": 4.37,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            37,
+            103,
+            66
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.4,
+            3,
+            0.6
+        ]
+    },
+    "FJI": {
+        "name": "Fiji",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.49,
+        "CO2 emissions, total (KtCO2)": 1254.11,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.728636619,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3565203889.59,
+        "Land area below 5m (% of land area)": 11.36,
+        "Population": 860623,
+        "Population below 5m (% of total)": 11,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -93,
+            271,
+            364
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "FRA": {
+        "name": "France",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.87,
+        "CO2 emissions, total (KtCO2)": 376985.94,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.005717646,
+        "Energy use per capita (kilograms of oil equivalent)": 3969.73,
+        "GDP ($)": 2831794060131.1,
+        "Land area below 5m (% of land area)": 2.07,
+        "Population": 64876618.43,
+        "Population below 5m (% of total)": 4.04,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -112,
+            2,
+            114
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "FRO": {
+        "name": "Faeroe Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 14.56,
+        "CO2 emissions, total (KtCO2)": 707.73,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 2412859692.83,
+        "Land area below 5m (% of land area)": 14.55,
+        "Population": 48708,
+        "Population below 5m (% of total)": 11.04,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            16,
+            95,
+            79
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            0.6,
+            1,
+            0.4
+        ]
+    },
+    "FSM": {
+        "name": "Micronesia, Fed. Sts.",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.56,
+        "CO2 emissions, total (KtCO2)": 62.34,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.349813557,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 261800000,
+        "Land area below 5m (% of land area)": 33.37,
+        "Population": 111064,
+        "Population below 5m (% of total)": 54.85,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -85,
+            411,
+            496
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "GAB": {
+        "name": "Gabon",
+        "Access to electricity (% of total population)": 36.7,
+        "CO2 emissions per capita (metric tons)": 1.7,
+        "CO2 emissions, total (KtCO2)": 2471.56,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 1214.19,
+        "GDP ($)": 14532816809.55,
+        "Land area below 5m (% of land area)": 0.54,
+        "Population": 1505463,
+        "Population below 5m (% of total)": 5.92,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -51,
+            148,
+            199
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "GBR": {
+        "name": "United Kingdom",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.52,
+        "CO2 emissions, total (KtCO2)": 522855.53,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.032407019,
+        "Energy use per capita (kilograms of oil equivalent)": 3183.78,
+        "GDP ($)": 2657482269112.41,
+        "Land area below 5m (% of land area)": 7.61,
+        "Population": 62218761,
+        "Population below 5m (% of total)": 8.64,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -10,
+            66,
+            76
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.1,
+            1,
+            -0.1
+        ]
+    },
+    "GEO": {
+        "name": "Georgia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.19,
+        "CO2 emissions, total (KtCO2)": 5203.47,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.770433849,
+        "Energy use per capita (kilograms of oil equivalent)": 722.94,
+        "GDP ($)": 12795044475.2,
+        "Land area below 5m (% of land area)": 1.43,
+        "Population": 4452800,
+        "Population below 5m (% of total)": 3.27,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -77,
+            -3,
+            74
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "GHA": {
+        "name": "Ghana",
+        "Access to electricity (% of total population)": 60.5,
+        "CO2 emissions per capita (metric tons)": 0.37,
+        "CO2 emissions, total (KtCO2)": 8591.78,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.974438237,
+        "Energy use per capita (kilograms of oil equivalent)": 387.86,
+        "GDP ($)": 28526922399.34,
+        "Land area below 5m (% of land area)": 0.77,
+        "Population": 24391823,
+        "Population below 5m (% of total)": 2.3,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -159,
+            83,
+            242
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "GIB": {
+        "name": "Gibraltar",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 14.4,
+        "CO2 emissions, total (KtCO2)": 421.71,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 5596.85,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 100,
+        "Population": 29244,
+        "Population below 5m (% of total)": 100,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -100,
+            -26,
+            74
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "GIN": {
+        "name": "Guinea",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.15,
+        "CO2 emissions, total (KtCO2)": 1393.46,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.180212227,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3778260000,
+        "Land area below 5m (% of land area)": 1.05,
+        "Population": 9981590,
+        "Population below 5m (% of total)": 3.63,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -122,
+            104,
+            226
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "GMB": {
+        "name": "Gambia, The",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.25,
+        "CO2 emissions, total (KtCO2)": 410.7,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.197190027,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 821917808.22,
+        "Land area below 5m (% of land area)": 16.58,
+        "Population": 1728394,
+        "Population below 5m (% of total)": 33.41,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -87,
+            26,
+            113
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "GNB": {
+        "name": "Guinea-Bissau",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.19,
+        "CO2 emissions, total (KtCO2)": 282.36,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.540905804,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 846854479.42,
+        "Land area below 5m (% of land area)": 9.5,
+        "Population": 1515224,
+        "Population below 5m (% of total)": 18.8,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -69,
+            130,
+            199
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "GNQ": {
+        "name": "Equatorial Guinea",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.27,
+        "CO2 emissions, total (KtCO2)": 4814.77,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 18423399315.28,
+        "Land area below 5m (% of land area)": 0.92,
+        "Population": 700401,
+        "Population below 5m (% of total)": 2.62,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -16,
+            129,
+            145
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "GRC": {
+        "name": "Greece",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.7,
+        "CO2 emissions, total (KtCO2)": 97813.56,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.006583139,
+        "Energy use per capita (kilograms of oil equivalent)": 2609.19,
+        "GDP ($)": 347042265250.67,
+        "Land area below 5m (% of land area)": 6.33,
+        "Population": 11319048,
+        "Population below 5m (% of total)": 9.9,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -110,
+            -40,
+            70
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "GRD": {
+        "name": "Grenada",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.37,
+        "CO2 emissions, total (KtCO2)": 245.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 678487940.52,
+        "Land area below 5m (% of land area)": 21.75,
+        "Population": 104487,
+        "Population below 5m (% of total)": 21.75,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -245,
+            7,
+            252
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "GRL": {
+        "name": "Greenland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.22,
+        "CO2 emissions, total (KtCO2)": 575.72,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1739579593.57,
+        "Land area below 5m (% of land area)": 16.27,
+        "Population": 56534,
+        "Population below 5m (% of total)": 52.19,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            6,
+            74,
+            68
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "GTM": {
+        "name": "Guatemala",
+        "Access to electricity (% of total population)": 80.5,
+        "CO2 emissions per capita (metric tons)": 0.87,
+        "CO2 emissions, total (KtCO2)": 11914.08,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.306823663,
+        "Energy use per capita (kilograms of oil equivalent)": 701.31,
+        "GDP ($)": 39136286496.22,
+        "Land area below 5m (% of land area)": 0.56,
+        "Population": 14388929,
+        "Population below 5m (% of total)": 0.31,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -186,
+            22,
+            208
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "GUM": {
+        "name": "Guam",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 20.38,
+        "Population": 179896,
+        "Population below 5m (% of total)": 26.57,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -25,
+            230,
+            255
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "GUY": {
+        "name": "Guyana",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.03,
+        "CO2 emissions, total (KtCO2)": 1525.47,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 7.170624212,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1922600611.44,
+        "Land area below 5m (% of land area)": 2.72,
+        "Population": 754493,
+        "Population below 5m (% of total)": 31.3,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -158,
+            72,
+            230
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "HKG": {
+        "name": "Hong Kong SAR, China",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.53,
+        "CO2 emissions, total (KtCO2)": 38573.17,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.004354373,
+        "Energy use per capita (kilograms of oil equivalent)": 2132.98,
+        "GDP ($)": 215365875584.32,
+        "Land area below 5m (% of land area)": 24.57,
+        "Population": 7067800,
+        "Population below 5m (% of total)": 26.17,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -83,
+            73,
+            156
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "HND": {
+        "name": "Honduras",
+        "Access to electricity (% of total population)": 70.3,
+        "CO2 emissions per capita (metric tons)": 1.19,
+        "CO2 emissions, total (KtCO2)": 8672.46,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.255291226,
+        "Energy use per capita (kilograms of oil equivalent)": 591.6,
+        "GDP ($)": 13969292165.03,
+        "Land area below 5m (% of land area)": 3.04,
+        "Population": 7600524,
+        "Population below 5m (% of total)": 2.17,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -204,
+            15,
+            219
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "HRV": {
+        "name": "Croatia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.26,
+        "CO2 emissions, total (KtCO2)": 23303.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.002494289,
+        "Energy use per capita (kilograms of oil equivalent)": 1964.84,
+        "GDP ($)": 69911233237.79,
+        "Land area below 5m (% of land area)": 3.03,
+        "Population": 4424161.46,
+        "Population below 5m (% of total)": 3.39,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -112,
+            -2,
+            110
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "HTI": {
+        "name": "Haiti",
+        "Access to electricity (% of total population)": 38.5,
+        "CO2 emissions per capita (metric tons)": 0.25,
+        "CO2 emissions, total (KtCO2)": 2434.89,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.840315026,
+        "Energy use per capita (kilograms of oil equivalent)": 263.09,
+        "GDP ($)": 6407707284.46,
+        "Land area below 5m (% of land area)": 3.94,
+        "Population": 9993247,
+        "Population below 5m (% of total)": 5.4,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -125,
+            34,
+            159
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "HUN": {
+        "name": "Hungary",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.44,
+        "CO2 emissions, total (KtCO2)": 54638.3,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.088105351,
+        "Energy use per capita (kilograms of oil equivalent)": 2480.3,
+        "GDP ($)": 155443541077.62,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 10008703,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -75,
+            23,
+            98
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "IDN": {
+        "name": "Indonesia",
+        "Access to electricity (% of total population)": 64.5,
+        "CO2 emissions per capita (metric tons)": 1.73,
+        "CO2 emissions, total (KtCO2)": 406028.58,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.160589722,
+        "Energy use per capita (kilograms of oil equivalent)": 850.83,
+        "GDP ($)": 510226662255.5,
+        "Land area below 5m (% of land area)": 5.5,
+        "Population": 239870937,
+        "Population below 5m (% of total)": 11.17,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -160,
+            234,
+            394
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "IMY": {
+        "name": "Isle of Man",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 12.09,
+        "Population": 82869,
+        "Population below 5m (% of total)": 27.77,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -13,
+            56,
+            69
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "IND": {
+        "name": "India",
+        "Access to electricity (% of total population)": 66.3,
+        "CO2 emissions per capita (metric tons)": 1.53,
+        "CO2 emissions, total (KtCO2)": 1742697.75,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 4.356108992,
+        "Energy use per capita (kilograms of oil equivalent)": 584.96,
+        "GDP ($)": 1213782569748.83,
+        "Land area below 5m (% of land area)": 1.35,
+        "Population": 1170938000,
+        "Population below 5m (% of total)": 3.76,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -91,
+            135,
+            226
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "IRL": {
+        "name": "Ireland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 9.85,
+        "CO2 emissions, total (KtCO2)": 43604.3,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.004907369,
+        "Energy use per capita (kilograms of oil equivalent)": 3215.87,
+        "GDP ($)": 263652850517.45,
+        "Land area below 5m (% of land area)": 3.96,
+        "Population": 4481430,
+        "Population below 5m (% of total)": 6.62,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -13,
+            78,
+            91
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            0.9,
+            1,
+            0.1
+        ]
+    },
+    "IRN": {
+        "name": "Iran",
+        "Access to electricity (% of total population)": 98.4,
+        "CO2 emissions per capita (metric tons)": 7.45,
+        "CO2 emissions, total (KtCO2)": 538403.61,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.056791917,
+        "Energy use per capita (kilograms of oil equivalent)": 2951.3,
+        "GDP ($)": 338187289004.76,
+        "Land area below 5m (% of land area)": 1.59,
+        "Population": 73973630,
+        "Population below 5m (% of total)": 4.98,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -51,
+            6,
+            57
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "IRQ": {
+        "name": "Iraq",
+        "Access to electricity (% of total population)": 86,
+        "CO2 emissions per capita (metric tons)": 3.41,
+        "CO2 emissions, total (KtCO2)": 102936.36,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.014837959,
+        "Energy use per capita (kilograms of oil equivalent)": 1034.87,
+        "GDP ($)": 86530068728.52,
+        "Land area below 5m (% of land area)": 4.02,
+        "Population": 32030823.3,
+        "Population below 5m (% of total)": 6.49,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -38,
+            -2,
+            36
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            3,
+            0.7
+        ]
+    },
+    "ISL": {
+        "name": "Iceland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.02,
+        "CO2 emissions, total (KtCO2)": 2229.54,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 16404.69,
+        "GDP ($)": 16863767020.3,
+        "Land area below 5m (% of land area)": 4.41,
+        "Population": 317398,
+        "Population below 5m (% of total)": 13.09,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -1,
+            101,
+            102
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            0.9,
+            2,
+            1.1
+        ]
+    },
+    "ISR": {
+        "name": "Israel",
+        "Access to electricity (% of total population)": 99.7,
+        "CO2 emissions per capita (metric tons)": 5.15,
+        "CO2 emissions, total (KtCO2)": 37663.76,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000810925,
+        "Energy use per capita (kilograms of oil equivalent)": 2878.3,
+        "GDP ($)": 202101449275.36,
+        "Land area below 5m (% of land area)": 7.82,
+        "Population": 7624600,
+        "Population below 5m (% of total)": 8.26,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -41,
+            -11,
+            30
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "ITA": {
+        "name": "Italy",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.44,
+        "CO2 emissions, total (KtCO2)": 445118.8,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.007102219,
+        "Energy use per capita (kilograms of oil equivalent)": 2735.05,
+        "GDP ($)": 2296497394246.16,
+        "Land area below 5m (% of land area)": 5.19,
+        "Population": 60483521,
+        "Population below 5m (% of total)": 7.54,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -108,
+            -11,
+            97
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "JAM": {
+        "name": "Jamaica",
+        "Access to electricity (% of total population)": 92,
+        "CO2 emissions per capita (metric tons)": 4.54,
+        "CO2 emissions, total (KtCO2)": 12203.78,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.143460776,
+        "Energy use per capita (kilograms of oil equivalent)": 1208.24,
+        "GDP ($)": 14121426276.67,
+        "Land area below 5m (% of land area)": 7.14,
+        "Population": 2702300,
+        "Population below 5m (% of total)": 5.85,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -102,
+            28,
+            130
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "JOR": {
+        "name": "Jordan",
+        "Access to electricity (% of total population)": 99.9,
+        "CO2 emissions per capita (metric tons)": 3.69,
+        "CO2 emissions, total (KtCO2)": 21382.28,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.369473469,
+        "Energy use per capita (kilograms of oil equivalent)": 1259.63,
+        "GDP ($)": 22696902203.59,
+        "Land area below 5m (% of land area)": 2.01,
+        "Population": 6047000,
+        "Population below 5m (% of total)": 4.19,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -28,
+            -3,
+            25
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "JPN": {
+        "name": "Japan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 9.46,
+        "CO2 emissions, total (KtCO2)": 1208162.82,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.02095155,
+        "Energy use per capita (kilograms of oil equivalent)": 3700.22,
+        "GDP ($)": 4879861453767.94,
+        "Land area below 5m (% of land area)": 5.88,
+        "Population": 127450459,
+        "Population below 5m (% of total)": 16.23,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -47,
+            80,
+            127
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "KAZ": {
+        "name": "Kazakhstan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 15.12,
+        "CO2 emissions, total (KtCO2)": 236954.21,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.217161219,
+        "Energy use per capita (kilograms of oil equivalent)": 4134.07,
+        "GDP ($)": 133441571813.62,
+        "Land area below 5m (% of land area)": 6.68,
+        "Population": 16316050,
+        "Population below 5m (% of total)": 3.88,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -1,
+            37,
+            38
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "KEN": {
+        "name": "Kenya",
+        "Access to electricity (% of total population)": 16.1,
+        "CO2 emissions per capita (metric tons)": 0.27,
+        "CO2 emissions, total (KtCO2)": 10392.28,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 6.477853231,
+        "Energy use per capita (kilograms of oil equivalent)": 474.46,
+        "GDP ($)": 30031427402.56,
+        "Land area below 5m (% of land area)": 0.24,
+        "Population": 40512682,
+        "Population below 5m (% of total)": 1.35,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            0,
+            144,
+            144
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "KGZ": {
+        "name": "Kyrgyz Republic",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.18,
+        "CO2 emissions, total (KtCO2)": 6208.23,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.065464026,
+        "Energy use per capita (kilograms of oil equivalent)": 565.75,
+        "GDP ($)": 5139957784.91,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 5365167.5,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -32,
+            35,
+            67
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            3,
+            0.7
+        ]
+    },
+    "KHM": {
+        "name": "Cambodia",
+        "Access to electricity (% of total population)": 24,
+        "CO2 emissions per capita (metric tons)": 0.33,
+        "CO2 emissions, total (KtCO2)": 4602.09,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 6.643791054,
+        "Energy use per capita (kilograms of oil equivalent)": 370.75,
+        "GDP ($)": 10351829065.6,
+        "Land area below 5m (% of land area)": 3.84,
+        "Population": 14138255,
+        "Population below 5m (% of total)": 10.58,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -109,
+            95,
+            204
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "KIR": {
+        "name": "Kiribati",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.3,
+        "CO2 emissions, total (KtCO2)": 29.34,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 5.002998765,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 132506609.31,
+        "Land area below 5m (% of land area)": 96.67,
+        "Population": 99546,
+        "Population below 5m (% of total)": 95.22,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            81,
+            385,
+            304
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "KNA": {
+        "name": "St. Kitts and Nevis",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.88,
+        "CO2 emissions, total (KtCO2)": 249.36,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 570140740.74,
+        "Land area below 5m (% of land area)": 19.02,
+        "Population": 52402,
+        "Population below 5m (% of total)": 22.12,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -102,
+            32,
+            134
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "KOR": {
+        "name": "South Korea",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.48,
+        "CO2 emissions, total (KtCO2)": 509170.28,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.080255411,
+        "Energy use per capita (kilograms of oil equivalent)": 4701.38,
+        "GDP ($)": 931402204981.63,
+        "Land area below 5m (% of land area)": 4.3,
+        "Population": 48875000,
+        "Population below 5m (% of total)": 4.96,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            0,
+            181,
+            181
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "KSV": {
+        "name": "Kosovo",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 5641557748.48,
+        "Land area below 5m (% of land area)": null,
+        "Population": 1815000,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -148,
+            -34,
+            114
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "KWT": {
+        "name": "Kuwait",
+        "Access to electricity (% of total population)": 100,
+        "CO2 emissions per capita (metric tons)": 30.11,
+        "CO2 emissions, total (KtCO2)": 76742.98,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000567073,
+        "Energy use per capita (kilograms of oil equivalent)": 11402.06,
+        "GDP ($)": 148782683750.76,
+        "Land area below 5m (% of land area)": 8.86,
+        "Population": 2736732,
+        "Population below 5m (% of total)": 22.78,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -19,
+            4,
+            23
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "LAO": {
+        "name": "Laos",
+        "Access to electricity (% of total population)": 55,
+        "CO2 emissions per capita (metric tons)": 0.25,
+        "CO2 emissions, total (KtCO2)": 1532.81,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.69310158,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 5497625802.65,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 6200894,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -95,
+            70,
+            165
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "LBN": {
+        "name": "Lebanon",
+        "Access to electricity (% of total population)": 99.9,
+        "CO2 emissions per capita (metric tons)": 4.1,
+        "CO2 emissions, total (KtCO2)": 17099.22,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.023082325,
+        "Energy use per capita (kilograms of oil equivalent)": 1580.32,
+        "GDP ($)": 30079601990.05,
+        "Land area below 5m (% of land area)": 1.74,
+        "Population": 4227597,
+        "Population below 5m (% of total)": 9.11,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -75,
+            -27,
+            48
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "LBR": {
+        "name": "Liberia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.17,
+        "CO2 emissions, total (KtCO2)": 608.72,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.872304199,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 842507277.56,
+        "Land area below 5m (% of land area)": 0.35,
+        "Population": 3994122,
+        "Population below 5m (% of total)": 3.35,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -115,
+            81,
+            196
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "LBY": {
+        "name": "Libya",
+        "Access to electricity (% of total population)": 99.8,
+        "CO2 emissions per capita (metric tons)": 9.49,
+        "CO2 emissions, total (KtCO2)": 58330.97,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 3258.22,
+        "GDP ($)": 93167701863.35,
+        "Land area below 5m (% of land area)": 0.78,
+        "Population": 6355112,
+        "Population below 5m (% of total)": 4.71,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -18,
+            5,
+            23
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "LCA": {
+        "name": "St. Lucia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.33,
+        "CO2 emissions, total (KtCO2)": 396.04,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 986073137.02,
+        "Land area below 5m (% of land area)": 8.02,
+        "Population": 174000,
+        "Population below 5m (% of total)": 8.02,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -159,
+            14,
+            173
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "LIE": {
+        "name": "Liechtenstein",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 4929414914.73,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 36032,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -66,
+            32,
+            98
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "LKA": {
+        "name": "Sri Lanka",
+        "Access to electricity (% of total population)": 76.6,
+        "CO2 emissions per capita (metric tons)": 0.57,
+        "CO2 emissions, total (KtCO2)": 11763.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.160030029,
+        "Energy use per capita (kilograms of oil equivalent)": 449.04,
+        "GDP ($)": 40715249699.99,
+        "Land area below 5m (% of land area)": 3.87,
+        "Population": 20859949,
+        "Population below 5m (% of total)": 5.44,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            11,
+            196,
+            185
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "LSO": {
+        "name": "Lesotho",
+        "Access to electricity (% of total population)": 16,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.402650963,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1600614922.77,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 2171318,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -66,
+            89,
+            155
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "LTU": {
+        "name": "Lithuania",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.51,
+        "CO2 emissions, total (KtCO2)": 15130.04,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 2511.66,
+        "GDP ($)": 47252926428.67,
+        "Land area below 5m (% of land area)": 1.91,
+        "Population": 3320656,
+        "Population below 5m (% of total)": 4.01,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            22,
+            83,
+            61
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "LUX": {
+        "name": "Luxembourg",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 21.49,
+        "CO2 emissions, total (KtCO2)": 10502.29,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 7934.07,
+        "GDP ($)": 58071556743.69,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 505831,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -86,
+            26,
+            112
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            2,
+            0.5
+        ]
+    },
+    "LVA": {
+        "name": "Latvia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 3.35,
+        "CO2 emissions, total (KtCO2)": 7590.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 1871.43,
+        "GDP ($)": 33669367720.47,
+        "Land area below 5m (% of land area)": 3.03,
+        "Population": 2242916,
+        "Population below 5m (% of total)": 23.94,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            31,
+            89,
+            58
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "MAC": {
+        "name": "Macao SAR, China",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.57,
+        "CO2 emissions, total (KtCO2)": 1334.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 21564640135.86,
+        "Land area below 5m (% of land area)": 35.39,
+        "Population": 543656,
+        "Population below 5m (% of total)": 79.9,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -83,
+            73,
+            156
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "MAF": {
+        "name": "St. Martin (French part)",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": null,
+        "Population": 30235,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": null,
+        "Projected annual temperature change (2045-2065, Celsius)": null
+    },
+    "MAR": {
+        "name": "Morocco",
+        "Access to electricity (% of total population)": 97,
+        "CO2 emissions per capita (metric tons)": 1.53,
+        "CO2 emissions, total (KtCO2)": 47905.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.075712586,
+        "Energy use per capita (kilograms of oil equivalent)": 476.8,
+        "GDP ($)": 88882967741.94,
+        "Land area below 5m (% of land area)": 0.7,
+        "Population": 31951412,
+        "Population below 5m (% of total)": 3.75,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -62,
+            -5,
+            57
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "MCO": {
+        "name": "Monaco",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 6581080163.11,
+        "Land area below 5m (% of land area)": 100,
+        "Population": 35407,
+        "Population below 5m (% of total)": 100,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -114,
+            1,
+            115
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "MDA": {
+        "name": "Moldova",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.34,
+        "CO2 emissions, total (KtCO2)": 4774.43,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.343810822,
+        "Energy use per capita (kilograms of oil equivalent)": 686.94,
+        "GDP ($)": 6054806100.85,
+        "Land area below 5m (% of land area)": 1.3,
+        "Population": 3562062,
+        "Population below 5m (% of total)": 0.94,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -72,
+            11,
+            83
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "MDG": {
+        "name": "Madagascar",
+        "Access to electricity (% of total population)": 19,
+        "CO2 emissions per capita (metric tons)": 0.1,
+        "CO2 emissions, total (KtCO2)": 1910.51,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.86461509,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 9394736595.65,
+        "Land area below 5m (% of land area)": 1.34,
+        "Population": 20713819,
+        "Population below 5m (% of total)": 2.03,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -104,
+            56,
+            160
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "MDV": {
+        "name": "Maldives",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.99,
+        "CO2 emissions, total (KtCO2)": 920.42,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.030647954,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1260234375,
+        "Land area below 5m (% of land area)": 100,
+        "Population": 315885,
+        "Population below 5m (% of total)": 100,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -2,
+            319,
+            321
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "MEX": {
+        "name": "Mexico",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.3,
+        "CO2 emissions, total (KtCO2)": 475833.59,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.149843277,
+        "Energy use per capita (kilograms of oil equivalent)": 1558.82,
+        "GDP ($)": 1096176334977.08,
+        "Land area below 5m (% of land area)": 2.94,
+        "Population": 113423047,
+        "Population below 5m (% of total)": 2.71,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -178,
+            10,
+            188
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "MHL": {
+        "name": "Marshall Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.87,
+        "CO2 emissions, total (KtCO2)": 99.01,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.058414229,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 152000000,
+        "Land area below 5m (% of land area)": 99.02,
+        "Population": 54038,
+        "Population below 5m (% of total)": 99.43,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            8,
+            240,
+            232
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "MKD": {
+        "name": "Macedonia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.76,
+        "CO2 emissions, total (KtCO2)": 11815.07,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.304578781,
+        "Energy use per capita (kilograms of oil equivalent)": 1351.95,
+        "GDP ($)": 9834028812.98,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 2060563,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -150,
+            -43,
+            107
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "MLI": {
+        "name": "Mali",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.04,
+        "CO2 emissions, total (KtCO2)": 594.05,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.652855128,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 8738080882.52,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 15369809,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -142,
+            43,
+            185
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.5,
+            3,
+            0.5
+        ]
+    },
+    "MLT": {
+        "name": "Malta",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.21,
+        "CO2 emissions, total (KtCO2)": 2559.57,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 1934.73,
+        "GDP ($)": 8413230936.25,
+        "Land area below 5m (% of land area)": 19.35,
+        "Population": 412961,
+        "Population below 5m (% of total)": 21.82,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -67,
+            -28,
+            39
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "MMR": {
+        "name": "Myanmar",
+        "Access to electricity (% of total population)": 13,
+        "CO2 emissions per capita (metric tons)": 0.27,
+        "CO2 emissions, total (KtCO2)": 12775.83,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.092410935,
+        "Energy use per capita (kilograms of oil equivalent)": 316.42,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 4.56,
+        "Population": 47963012,
+        "Population below 5m (% of total)": 14.02,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -84,
+            97,
+            181
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "MNE": {
+        "name": "Montenegro",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 3.1,
+        "CO2 emissions, total (KtCO2)": 1950.84,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.012174282,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 4519731946.68,
+        "Land area below 5m (% of land area)": null,
+        "Population": 631490,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -138,
+            -27,
+            111
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "MNG": {
+        "name": "Mongolia",
+        "Access to electricity (% of total population)": 67,
+        "CO2 emissions per capita (metric tons)": 4.08,
+        "CO2 emissions, total (KtCO2)": 10894.66,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.561342238,
+        "Energy use per capita (kilograms of oil equivalent)": 1193.9,
+        "GDP ($)": 5623236707.52,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 2756001,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            1,
+            50,
+            49
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            3,
+            0.7
+        ]
+    },
+    "MNP": {
+        "name": "Northern Mariana Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 28.06,
+        "Population": 60917,
+        "Population below 5m (% of total)": 39.28,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            1,
+            197,
+            196
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "MOZ": {
+        "name": "Mozambique",
+        "Access to electricity (% of total population)": 11.7,
+        "CO2 emissions per capita (metric tons)": 0.1,
+        "CO2 emissions, total (KtCO2)": 2313.88,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.662447956,
+        "Energy use per capita (kilograms of oil equivalent)": 427.23,
+        "GDP ($)": 9891264915.12,
+        "Land area below 5m (% of land area)": 1.83,
+        "Population": 23390765,
+        "Population below 5m (% of total)": 6.48,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -69,
+            61,
+            130
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "MRT": {
+        "name": "Mauritania",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.61,
+        "CO2 emissions, total (KtCO2)": 1998.52,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.08197365,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3588611731.81,
+        "Land area below 5m (% of land area)": 1.05,
+        "Population": 3459773,
+        "Population below 5m (% of total)": 20.43,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -113,
+            9,
+            122
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.4,
+            3,
+            0.6
+        ]
+    },
+    "MUS": {
+        "name": "Mauritius",
+        "Access to electricity (% of total population)": 99.4,
+        "CO2 emissions per capita (metric tons)": 3.12,
+        "CO2 emissions, total (KtCO2)": 3953.03,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 9641036888.45,
+        "Land area below 5m (% of land area)": 7.07,
+        "Population": 1281214,
+        "Population below 5m (% of total)": 5.65,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -165,
+            67,
+            232
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "MWI": {
+        "name": "Malawi",
+        "Access to electricity (% of total population)": 9,
+        "CO2 emissions per capita (metric tons)": 0.09,
+        "CO2 emissions, total (KtCO2)": 1228.45,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 8.820492787,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 4074143554.3,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 14900841,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -53,
+            91,
+            144
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "MYS": {
+        "name": "Malaysia",
+        "Access to electricity (% of total population)": 99.4,
+        "CO2 emissions per capita (metric tons)": 7.57,
+        "CO2 emissions, total (KtCO2)": 208267.27,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.096926904,
+        "Energy use per capita (kilograms of oil equivalent)": 2390.97,
+        "GDP ($)": 221828443113.77,
+        "Land area below 5m (% of land area)": 2.99,
+        "Population": 28401017,
+        "Population below 5m (% of total)": 9.48,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -160,
+            117,
+            277
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            1,
+            -0.6
+        ]
+    },
+    "MYT": {
+        "name": "Mayotte",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 21.56,
+        "Population": 204114,
+        "Population below 5m (% of total)": 21.56,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -24,
+            112,
+            136
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "NAM": {
+        "name": "Namibia",
+        "Access to electricity (% of total population)": 34,
+        "CO2 emissions per capita (metric tons)": 1.8,
+        "CO2 emissions, total (KtCO2)": 3967.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.401433963,
+        "Energy use per capita (kilograms of oil equivalent)": 763.8,
+        "GDP ($)": 8967523024.72,
+        "Land area below 5m (% of land area)": 0.29,
+        "Population": 2283289,
+        "Population below 5m (% of total)": 2.9,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -67,
+            23,
+            90
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            2,
+            -0.2
+        ]
+    },
+    "NCL": {
+        "name": "New Caledonia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 12.77,
+        "CO2 emissions, total (KtCO2)": 3149.95,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 8.03,
+        "Population": 254000,
+        "Population below 5m (% of total)": 34.29,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -122,
+            118,
+            240
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "NER": {
+        "name": "Niger",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.06,
+        "CO2 emissions, total (KtCO2)": 850.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 7.525065739,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 5369911346.33,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 15511953,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -71,
+            36,
+            107
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.4,
+            2,
+            -0.4
+        ]
+    },
+    "NGA": {
+        "name": "Nigeria",
+        "Access to electricity (% of total population)": 50.6,
+        "CO2 emissions per capita (metric tons)": 0.64,
+        "CO2 emissions, total (KtCO2)": 95756.37,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.055033264,
+        "Energy use per capita (kilograms of oil equivalent)": 700.71,
+        "GDP ($)": 207117912034.15,
+        "Land area below 5m (% of land area)": 0.54,
+        "Population": 158423182,
+        "Population below 5m (% of total)": 3.03,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -128,
+            89,
+            217
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "NIC": {
+        "name": "Nicaragua",
+        "Access to electricity (% of total population)": 72.1,
+        "CO2 emissions per capita (metric tons)": 0.77,
+        "CO2 emissions, total (KtCO2)": 4330.73,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.833598367,
+        "Energy use per capita (kilograms of oil equivalent)": 540.32,
+        "GDP ($)": 6372242896.56,
+        "Land area below 5m (% of land area)": 3.57,
+        "Population": 5788163,
+        "Population below 5m (% of total)": 1.46,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -220,
+            19,
+            239
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "NIU": {
+        "name": "Niue",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 2.36,
+        "CO2 emissions, total (KtCO2)": 3.67,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 10.44,
+        "Population": 1468,
+        "Population below 5m (% of total)": 10.44,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -9,
+            153,
+            162
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "NLD": {
+        "name": "Netherlands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.57,
+        "CO2 emissions, total (KtCO2)": 173749.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.004737861,
+        "Energy use per capita (kilograms of oil equivalent)": 4729.16,
+        "GDP ($)": 873367268465.96,
+        "Land area below 5m (% of land area)": 58.47,
+        "Population": 16612213,
+        "Population below 5m (% of total)": 61.32,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -18,
+            50,
+            68
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            2,
+            0.6
+        ]
+    },
+    "NOR": {
+        "name": "Norway",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.48,
+        "CO2 emissions, total (KtCO2)": 49992.21,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.006795588,
+        "Energy use per capita (kilograms of oil equivalent)": 5849.34,
+        "GDP ($)": 446241134751.77,
+        "Land area below 5m (% of land area)": 4.85,
+        "Population": 4885240,
+        "Population below 5m (% of total)": 9.34,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            41,
+            131,
+            90
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            3,
+            1.2
+        ]
+    },
+    "NPL": {
+        "name": "Nepal",
+        "Access to electricity (% of total population)": 43.6,
+        "CO2 emissions per capita (metric tons)": 0.12,
+        "CO2 emissions, total (KtCO2)": 3542.32,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.703796514,
+        "Energy use per capita (kilograms of oil equivalent)": 338.4,
+        "GDP ($)": 12572606352.88,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 29959364,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -116,
+            231,
+            347
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "NRU": {
+        "name": "Nauru",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 14.05,
+        "CO2 emissions, total (KtCO2)": 143.01,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 40.36,
+        "Population": 10255,
+        "Population below 5m (% of total)": 40.36,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -60,
+            565,
+            625
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            2,
+            0.7
+        ]
+    },
+    "NZL": {
+        "name": "New Zealand",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.75,
+        "CO2 emissions, total (KtCO2)": 33094.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.010853985,
+        "Energy use per capita (kilograms of oil equivalent)": 4032.34,
+        "GDP ($)": 117816546666.67,
+        "Land area below 5m (% of land area)": 2.74,
+        "Population": 4367800,
+        "Population below 5m (% of total)": 12.56,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -44,
+            53,
+            97
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.1,
+            1,
+            -0.1
+        ]
+    },
+    "OMN": {
+        "name": "Oman",
+        "Access to electricity (% of total population)": 98,
+        "CO2 emissions per capita (metric tons)": 17.35,
+        "CO2 emissions, total (KtCO2)": 45749.49,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 5554.06,
+        "GDP ($)": 60566970579.26,
+        "Land area below 5m (% of land area)": 1.08,
+        "Population": 2782435,
+        "Population below 5m (% of total)": 5.48,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -16,
+            31,
+            47
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "PAK": {
+        "name": "Pakistan",
+        "Access to electricity (% of total population)": 62.4,
+        "CO2 emissions per capita (metric tons)": 0.97,
+        "CO2 emissions, total (KtCO2)": 163177.83,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.055342391,
+        "Energy use per capita (kilograms of oil equivalent)": 501.6,
+        "GDP ($)": 163891676021.6,
+        "Land area below 5m (% of land area)": 1.42,
+        "Population": 173593383,
+        "Population below 5m (% of total)": 1.28,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -60,
+            36,
+            96
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.4,
+            3,
+            0.6
+        ]
+    },
+    "PAN": {
+        "name": "Panama",
+        "Access to electricity (% of total population)": 88.1,
+        "CO2 emissions per capita (metric tons)": 2.03,
+        "CO2 emissions, total (KtCO2)": 6912.3,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.196361452,
+        "Energy use per capita (kilograms of oil equivalent)": 895.52,
+        "GDP ($)": 23001600000,
+        "Land area below 5m (% of land area)": 3.71,
+        "Population": 3516820,
+        "Population below 5m (% of total)": 3.95,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -228,
+            107,
+            335
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.6,
+            2,
+            0.4
+        ]
+    },
+    "PER": {
+        "name": "Peru",
+        "Access to electricity (% of total population)": 85.7,
+        "CO2 emissions per capita (metric tons)": 1.42,
+        "CO2 emissions, total (KtCO2)": 40535.02,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.952380813,
+        "Energy use per capita (kilograms of oil equivalent)": 550.34,
+        "GDP ($)": 126822739599.82,
+        "Land area below 5m (% of land area)": 0.38,
+        "Population": 29076512,
+        "Population below 5m (% of total)": 1.71,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -57,
+            181,
+            238
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "PHL": {
+        "name": "Philippines",
+        "Access to electricity (% of total population)": 89.7,
+        "CO2 emissions per capita (metric tons)": 0.92,
+        "CO2 emissions, total (KtCO2)": 83156.56,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.806384865,
+        "Energy use per capita (kilograms of oil equivalent)": 423.57,
+        "GDP ($)": 173602533345.58,
+        "Land area below 5m (% of land area)": 6.02,
+        "Population": 93260798,
+        "Population below 5m (% of total)": 10.53,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -136,
+            140,
+            276
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "PLW": {
+        "name": "Palau",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 10.51,
+        "CO2 emissions, total (KtCO2)": 212.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 166394363.54,
+        "Land area below 5m (% of land area)": 21.37,
+        "Population": 20472,
+        "Population below 5m (% of total)": 55.57,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -89,
+            172,
+            261
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "PNG": {
+        "name": "Papua New Guinea",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.32,
+        "CO2 emissions, total (KtCO2)": 2108.53,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.730797898,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 8010370370.37,
+        "Land area below 5m (% of land area)": 1.84,
+        "Population": 6858266,
+        "Population below 5m (% of total)": 2.02,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -163,
+            421,
+            584
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "POL": {
+        "name": "Poland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.29,
+        "CO2 emissions, total (KtCO2)": 316066.06,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.032017102,
+        "Energy use per capita (kilograms of oil equivalent)": 2463.52,
+        "GDP ($)": 529400755437.49,
+        "Land area below 5m (% of land area)": 1.68,
+        "Population": 38187488,
+        "Population below 5m (% of total)": 2.49,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -12,
+            64,
+            76
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "PRI": {
+        "name": "Puerto Rico",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.016497321,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 7.73,
+        "Population": 3978702,
+        "Population below 5m (% of total)": 11.3,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -133,
+            37,
+            170
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "PRK": {
+        "name": "North Korea",
+        "Access to electricity (% of total population)": 26,
+        "CO2 emissions per capita (metric tons)": 3.25,
+        "CO2 emissions, total (KtCO2)": 78371.12,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.496881102,
+        "Energy use per capita (kilograms of oil equivalent)": 794.96,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 2.42,
+        "Population": 24346229,
+        "Population below 5m (% of total)": 5.27,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -9,
+            129,
+            138
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "PRT": {
+        "name": "Portugal",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.3,
+        "CO2 emissions, total (KtCO2)": 56310.45,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.001802335,
+        "Energy use per capita (kilograms of oil equivalent)": 2266.26,
+        "GDP ($)": 251925293880.69,
+        "Land area below 5m (% of land area)": 2.31,
+        "Population": 10642841,
+        "Population below 5m (% of total)": 5.25,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -113,
+            -7,
+            106
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            2,
+            0.7
+        ]
+    },
+    "PRY": {
+        "name": "Paraguay",
+        "Access to electricity (% of total population)": 96.7,
+        "CO2 emissions per capita (metric tons)": 0.66,
+        "CO2 emissions, total (KtCO2)": 4118.04,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.714773455,
+        "Energy use per capita (kilograms of oil equivalent)": 749.37,
+        "GDP ($)": 16873155276.09,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 6454548,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -48,
+            112,
+            160
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "PYF": {
+        "name": "French Polynesia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 3.37,
+        "CO2 emissions, total (KtCO2)": 891.08,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 37.6,
+        "Population": 270764,
+        "Population below 5m (% of total)": 19.84,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -79,
+            283,
+            362
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "QAT": {
+        "name": "Qatar",
+        "Access to electricity (% of total population)": 98.7,
+        "CO2 emissions per capita (metric tons)": 49.05,
+        "CO2 emissions, total (KtCO2)": 68477.56,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 14911.15,
+        "GDP ($)": 110712359446.65,
+        "Land area below 5m (% of land area)": 13.39,
+        "Population": 1758793,
+        "Population below 5m (% of total)": 23.08,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -23,
+            8,
+            31
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            2,
+            -0.3
+        ]
+    },
+    "ROM": {
+        "name": "Romania",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.4,
+        "CO2 emissions, total (KtCO2)": 94659.94,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.084970988,
+        "Energy use per capita (kilograms of oil equivalent)": 1601.76,
+        "GDP ($)": 200071062765.49,
+        "Land area below 5m (% of land area)": 2.91,
+        "Population": 21442012,
+        "Population below 5m (% of total)": 2.89,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -92,
+            2,
+            94
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "RUS": {
+        "name": "Russian Federation",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 12.04,
+        "CO2 emissions, total (KtCO2)": 1708653.32,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.132700497,
+        "Energy use per capita (kilograms of oil equivalent)": 4560.56,
+        "GDP ($)": 1660846387626,
+        "Land area below 5m (% of land area)": 1.91,
+        "Population": 141750000,
+        "Population below 5m (% of total)": 2.88,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            24,
+            79,
+            55
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.6,
+            3,
+            0.4
+        ]
+    },
+    "RWA": {
+        "name": "Rwanda",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.07,
+        "CO2 emissions, total (KtCO2)": 704.06,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.295973166,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 4712306077.48,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 10624005,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -12,
+            211,
+            223
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "SAU": {
+        "name": "Saudi Arabia",
+        "Access to electricity (% of total population)": 99,
+        "CO2 emissions per capita (metric tons)": 16.57,
+        "CO2 emissions, total (KtCO2)": 433556.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.005660491,
+        "Energy use per capita (kilograms of oil equivalent)": 5888.1,
+        "GDP ($)": 476304800000,
+        "Land area below 5m (% of land area)": 0.48,
+        "Population": 27448086,
+        "Population below 5m (% of total)": 1.02,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -27,
+            9,
+            36
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            2,
+            -0.3
+        ]
+    },
+    "SDN": {
+        "name": "Sudan",
+        "Access to electricity (% of total population)": 35.9,
+        "CO2 emissions per capita (metric tons)": 0.34,
+        "CO2 emissions, total (KtCO2)": 14051.94,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.765415582,
+        "Energy use per capita (kilograms of oil equivalent)": 372.31,
+        "GDP ($)": 58032057416.27,
+        "Land area below 5m (% of land area)": 0.09,
+        "Population": 43551941,
+        "Population below 5m (% of total)": 0.22,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -69,
+            44,
+            113
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "SEN": {
+        "name": "Senegal",
+        "Access to electricity (% of total population)": 42,
+        "CO2 emissions per capita (metric tons)": 0.42,
+        "CO2 emissions, total (KtCO2)": 4976.12,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.597670115,
+        "Energy use per capita (kilograms of oil equivalent)": 242.76,
+        "GDP ($)": 13210074065.47,
+        "Land area below 5m (% of land area)": 4.46,
+        "Population": 12433728,
+        "Population below 5m (% of total)": 14.77,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -124,
+            37,
+            161
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "SGP": {
+        "name": "Singapore",
+        "Access to electricity (% of total population)": 100,
+        "CO2 emissions per capita (metric tons)": 6.67,
+        "CO2 emissions, total (KtCO2)": 32295.27,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 3704.39,
+        "GDP ($)": 189393185097.92,
+        "Land area below 5m (% of land area)": 8.06,
+        "Population": 5076700,
+        "Population below 5m (% of total)": 12.05,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -134,
+            49,
+            183
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "SLB": {
+        "name": "Solomon Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.39,
+        "CO2 emissions, total (KtCO2)": 198.02,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.090344057,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 645796657.5,
+        "Land area below 5m (% of land area)": 11.54,
+        "Population": 538148,
+        "Population below 5m (% of total)": 13.39,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -107,
+            314,
+            421
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "SLE": {
+        "name": "Sierra Leone",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.24,
+        "CO2 emissions, total (KtCO2)": 1334.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.247016284,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1954828246.02,
+        "Land area below 5m (% of land area)": 3,
+        "Population": 5867536,
+        "Population below 5m (% of total)": 5.06,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -96,
+            128,
+            224
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "SLV": {
+        "name": "El Salvador",
+        "Access to electricity (% of total population)": 86.4,
+        "CO2 emissions per capita (metric tons)": 1,
+        "CO2 emissions, total (KtCO2)": 6112.89,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.360637004,
+        "Energy use per capita (kilograms of oil equivalent)": 828.21,
+        "GDP ($)": 22106800000,
+        "Land area below 5m (% of land area)": 2.45,
+        "Population": 6192993,
+        "Population below 5m (% of total)": 1.72,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -205,
+            14,
+            219
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "SMR": {
+        "name": "San Marino",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 1899809579.61,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 31534,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -111,
+            3,
+            114
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            3,
+            1.1
+        ]
+    },
+    "SOM": {
+        "name": "Somalia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.07,
+        "CO2 emissions, total (KtCO2)": 649.06,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 4.603689341,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 0.57,
+        "Population": 9330872,
+        "Population below 5m (% of total)": 2.15,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -4,
+            111,
+            115
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "SRB": {
+        "name": "Serbia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.79,
+        "CO2 emissions, total (KtCO2)": 49933.54,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.010660574,
+        "Energy use per capita (kilograms of oil equivalent)": 1973.79,
+        "GDP ($)": 48856609868.37,
+        "Land area below 5m (% of land area)": 0.19,
+        "Population": 7292574,
+        "Population below 5m (% of total)": 0.09,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -125,
+            -15,
+            110
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "STP": {
+        "name": "Sao Tome and Principe",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.8,
+        "CO2 emissions, total (KtCO2)": 128.35,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 170904224.75,
+        "Land area below 5m (% of land area)": 14.72,
+        "Population": 165397,
+        "Population below 5m (% of total)": 11.09,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -42,
+            137,
+            179
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            2,
+            0.5
+        ]
+    },
+    "SUR": {
+        "name": "Suriname",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.73,
+        "CO2 emissions, total (KtCO2)": 2438.56,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.339835427,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 3065318761.38,
+        "Land area below 5m (% of land area)": 3.45,
+        "Population": 524636,
+        "Population below 5m (% of total)": 68.22,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -138,
+            107,
+            245
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "SVK": {
+        "name": "Slovak Republic",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.95,
+        "CO2 emissions, total (KtCO2)": 37557.41,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.044927135,
+        "Energy use per capita (kilograms of oil equivalent)": 3086.15,
+        "GDP ($)": 98463512523.8,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 5433456,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -44,
+            45,
+            89
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "SVN": {
+        "name": "Slovenia",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 8.49,
+        "CO2 emissions, total (KtCO2)": 17157.89,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 3416.63,
+        "GDP ($)": 54642842411.02,
+        "Land area below 5m (% of land area)": 0.2,
+        "Population": 2052821,
+        "Population below 5m (% of total)": 1.3,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -93,
+            5,
+            98
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "SWE": {
+        "name": "Sweden",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 5.32,
+        "CO2 emissions, total (KtCO2)": 49049.79,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": 4883.39,
+        "GDP ($)": 486158607819.64,
+        "Land area below 5m (% of land area)": 1.53,
+        "Population": 9379116,
+        "Population below 5m (% of total)": 6.31,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            35,
+            107,
+            72
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "SWZ": {
+        "name": "Swaziland",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.95,
+        "CO2 emissions, total (KtCO2)": 1092.77,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 9.226586308,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 2836875998.64,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 1186056,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -82,
+            34,
+            116
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "SXM": {
+        "name": "Sint Maarten (Dutch part)",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": null,
+        "Population": 37850.45822,
+        "Population below 5m (% of total)": null,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": null,
+        "Projected annual temperature change (2045-2065, Celsius)": null
+    },
+    "SYC": {
+        "name": "Seychelles",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 7.84,
+        "CO2 emissions, total (KtCO2)": 682.06,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.078021324,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 920991413.95,
+        "Land area below 5m (% of land area)": 43.94,
+        "Population": 86525,
+        "Population below 5m (% of total)": 41.33,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -75,
+            226,
+            301
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            1,
+            -0.5
+        ]
+    },
+    "SYR": {
+        "name": "Syria",
+        "Access to electricity (% of total population)": 92.7,
+        "CO2 emissions per capita (metric tons)": 3.65,
+        "CO2 emissions, total (KtCO2)": 71598.18,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.507772234,
+        "Energy use per capita (kilograms of oil equivalent)": 1122.97,
+        "GDP ($)": 52581935483.87,
+        "Land area below 5m (% of land area)": 0.06,
+        "Population": 20446608.57,
+        "Population below 5m (% of total)": 0.31,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -57,
+            -13,
+            44
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            3,
+            0.8
+        ]
+    },
+    "TCA": {
+        "name": "Turks and Caicos Islands",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.38,
+        "CO2 emissions, total (KtCO2)": 157.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 53.27,
+        "Population": 38354,
+        "Population below 5m (% of total)": 53.27,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -87,
+            52,
+            139
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "TCD": {
+        "name": "Chad",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.05,
+        "CO2 emissions, total (KtCO2)": 495.05,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 2.714641025,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 8357142857.14,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 11227208,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -79,
+            41,
+            120
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            2,
+            -0.3
+        ]
+    },
+    "TGO": {
+        "name": "Togo",
+        "Access to electricity (% of total population)": 20,
+        "CO2 emissions per capita (metric tons)": 0.25,
+        "CO2 emissions, total (KtCO2)": 1419.13,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.508477885,
+        "Energy use per capita (kilograms of oil equivalent)": 445.05,
+        "GDP ($)": 3163383040.42,
+        "Land area below 5m (% of land area)": 0.58,
+        "Population": 6027798,
+        "Population below 5m (% of total)": 6.12,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -175,
+            100,
+            275
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "THA": {
+        "name": "Thailand",
+        "Access to electricity (% of total population)": 99.3,
+        "CO2 emissions per capita (metric tons)": 4.19,
+        "CO2 emissions, total (KtCO2)": 285732.64,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 3.751098955,
+        "Energy use per capita (kilograms of oil equivalent)": 1503.74,
+        "GDP ($)": 272577816170.88,
+        "Land area below 5m (% of land area)": 4.17,
+        "Population": 69122234,
+        "Population below 5m (% of total)": 13.78,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -109,
+            76,
+            185
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.7,
+            2,
+            0.3
+        ]
+    },
+    "TJK": {
+        "name": "Tajikistan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.47,
+        "CO2 emissions, total (KtCO2)": 3146.29,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 5.37808587,
+        "Energy use per capita (kilograms of oil equivalent)": 341.78,
+        "GDP ($)": 5161336170.46,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 6878637,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -46,
+            27,
+            73
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.3,
+            3,
+            0.7
+        ]
+    },
+    "TKM": {
+        "name": "Turkmenistan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 9.73,
+        "CO2 emissions, total (KtCO2)": 47839.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000475378,
+        "Energy use per capita (kilograms of oil equivalent)": 3932.75,
+        "GDP ($)": 17017140631.09,
+        "Land area below 5m (% of land area)": 5.3,
+        "Population": 5041995,
+        "Population below 5m (% of total)": 5.64,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -32,
+            12,
+            44
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            3,
+            1.2
+        ]
+    },
+    "TMP": {
+        "name": "Timor-Leste",
+        "Access to electricity (% of total population)": 22,
+        "CO2 emissions per capita (metric tons)": 0.18,
+        "CO2 emissions, total (KtCO2)": 190.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.025120381,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 497918858.21,
+        "Land area below 5m (% of land area)": 2.89,
+        "Population": 1124355,
+        "Population below 5m (% of total)": 4.39,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -123,
+            206,
+            329
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "TON": {
+        "name": "Tonga",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.71,
+        "CO2 emissions, total (KtCO2)": 176.02,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 348011965.57,
+        "Land area below 5m (% of land area)": 40.46,
+        "Population": 104058,
+        "Population below 5m (% of total)": 31.31,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -13,
+            182,
+            195
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "TTO": {
+        "name": "Trinidad and Tobago",
+        "Access to electricity (% of total population)": 99,
+        "CO2 emissions per capita (metric tons)": 37.39,
+        "CO2 emissions, total (KtCO2)": 49772.19,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.000817749,
+        "Energy use per capita (kilograms of oil equivalent)": 15158.19,
+        "GDP ($)": 27132936507.94,
+        "Land area below 5m (% of land area)": 7.98,
+        "Population": 1341465,
+        "Population below 5m (% of total)": 7.46,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -266,
+            8,
+            274
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.5,
+            2,
+            0.5
+        ]
+    },
+    "TUN": {
+        "name": "Tunisia",
+        "Access to electricity (% of total population)": 99.5,
+        "CO2 emissions per capita (metric tons)": 2.42,
+        "CO2 emissions, total (KtCO2)": 25012.61,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.098450336,
+        "Energy use per capita (kilograms of oil equivalent)": 881.26,
+        "GDP ($)": 40844817790.76,
+        "Land area below 5m (% of land area)": 2.79,
+        "Population": 10549100,
+        "Population below 5m (% of total)": 9.53,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -57,
+            -16,
+            41
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "TUR": {
+        "name": "Turkey",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4,
+        "CO2 emissions, total (KtCO2)": 283979.81,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.136563067,
+        "Energy use per capita (kilograms of oil equivalent)": 1359.3,
+        "GDP ($)": 730337495197.85,
+        "Land area below 5m (% of land area)": 1.03,
+        "Population": 72752325,
+        "Population below 5m (% of total)": 2.38,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -103,
+            -29,
+            74
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "TUV": {
+        "name": "Tuvalu",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 29628076.3,
+        "Land area below 5m (% of land area)": 100,
+        "Population": 9827,
+        "Population below 5m (% of total)": 100,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            9,
+            651,
+            642
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "TZA": {
+        "name": "Tanzania",
+        "Access to electricity (% of total population)": 13.9,
+        "CO2 emissions per capita (metric tons)": 0.15,
+        "CO2 emissions, total (KtCO2)": 6464.92,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.495863574,
+        "Energy use per capita (kilograms of oil equivalent)": 450.69,
+        "GDP ($)": 20715098399.47,
+        "Land area below 5m (% of land area)": 0.18,
+        "Population": 44841226,
+        "Population below 5m (% of total)": 1.29,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -9,
+            167,
+            176
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "UGA": {
+        "name": "Uganda",
+        "Access to electricity (% of total population)": 9,
+        "CO2 emissions per capita (metric tons)": 0.12,
+        "CO2 emissions, total (KtCO2)": 3747.67,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.85120347,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 14440830267.25,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 33424683,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -13,
+            224,
+            237
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "UKR": {
+        "name": "Ukraine",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 6.99,
+        "CO2 emissions, total (KtCO2)": 323532.08,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.269239354,
+        "Energy use per capita (kilograms of oil equivalent)": 2507.36,
+        "GDP ($)": 180354647630.62,
+        "Land area below 5m (% of land area)": 1.54,
+        "Population": 45870700,
+        "Population below 5m (% of total)": 2.07,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -43,
+            31,
+            74
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            3,
+            0.9
+        ]
+    },
+    "URY": {
+        "name": "Uruguay",
+        "Access to electricity (% of total population)": 98.3,
+        "CO2 emissions per capita (metric tons)": 2.5,
+        "CO2 emissions, total (KtCO2)": 8327.76,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.264742967,
+        "Energy use per capita (kilograms of oil equivalent)": 1223.73,
+        "GDP ($)": 31176899890.64,
+        "Land area below 5m (% of land area)": 1.91,
+        "Population": 3356584,
+        "Population below 5m (% of total)": 4.71,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            0,
+            130,
+            130
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "USA": {
+        "name": "United States",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 17.94,
+        "CO2 emissions, total (KtCO2)": 5461013.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.214155723,
+        "Energy use per capita (kilograms of oil equivalent)": 7045.17,
+        "GDP ($)": 14296900000000,
+        "Land area below 5m (% of land area)": 1.72,
+        "Population": 309050816,
+        "Population below 5m (% of total)": 4.1,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -26,
+            98,
+            124
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "UZB": {
+        "name": "Uzbekistan",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 4.57,
+        "CO2 emissions, total (KtCO2)": 124905.35,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.123694001,
+        "Energy use per capita (kilograms of oil equivalent)": 1757.8,
+        "GDP ($)": 27917519210.66,
+        "Land area below 5m (% of land area)": 0.05,
+        "Population": 28160361.37,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -26,
+            17,
+            43
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            3,
+            1
+        ]
+    },
+    "VCT": {
+        "name": "St. Vincent and the Grenadines",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 1.85,
+        "CO2 emissions, total (KtCO2)": 201.69,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.00923654,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 583870370.37,
+        "Land area below 5m (% of land area)": 21.96,
+        "Population": 109333,
+        "Population below 5m (% of total)": 21.96,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -165,
+            15,
+            180
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            1,
+            -0.4
+        ]
+    },
+    "VEN": {
+        "name": "Venezuela",
+        "Access to electricity (% of total population)": 99,
+        "CO2 emissions per capita (metric tons)": 6.07,
+        "CO2 emissions, total (KtCO2)": 169532.74,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.155204204,
+        "Energy use per capita (kilograms of oil equivalent)": 2356.91,
+        "GDP ($)": 311130615277.13,
+        "Land area below 5m (% of land area)": 2.29,
+        "Population": 28834000,
+        "Population below 5m (% of total)": 3.68,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -150,
+            85,
+            235
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.8,
+            2,
+            0.2
+        ]
+    },
+    "VIR": {
+        "name": "Virgin Islands (U.S.)",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": null,
+        "CO2 emissions, total (KtCO2)": null,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 30.96,
+        "Population": 109775,
+        "Population below 5m (% of total)": 21.94,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -116,
+            44,
+            160
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "VNM": {
+        "name": "Vietnam",
+        "Access to electricity (% of total population)": 97.6,
+        "CO2 emissions per capita (metric tons)": 1.5,
+        "CO2 emissions, total (KtCO2)": 127384.25,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.599361681,
+        "Energy use per capita (kilograms of oil equivalent)": 744.53,
+        "GDP ($)": 90273764945.75,
+        "Land area below 5m (% of land area)": 17.5,
+        "Population": 86936464.42,
+        "Population below 5m (% of total)": 42.81,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -107,
+            61,
+            168
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.4,
+            2,
+            0.6
+        ]
+    },
+    "VUT": {
+        "name": "Vanuatu",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.4,
+        "CO2 emissions, total (KtCO2)": 91.68,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.10570389,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 619283529.06,
+        "Land area below 5m (% of land area)": 11.68,
+        "Population": 239651,
+        "Population below 5m (% of total)": 10.84,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -163,
+            180,
+            343
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "WBG": {
+        "name": "West Bank and Gaza",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.52,
+        "CO2 emissions, total (KtCO2)": 2053.52,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": null,
+        "Land area below 5m (% of land area)": 14.84,
+        "Population": 4152102,
+        "Population below 5m (% of total)": 11.24,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -40,
+            -13,
+            27
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "WSM": {
+        "name": "Samoa",
+        "Access to electricity (% of total population)": null,
+        "CO2 emissions per capita (metric tons)": 0.89,
+        "CO2 emissions, total (KtCO2)": 161.35,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0,
+        "Energy use per capita (kilograms of oil equivalent)": null,
+        "GDP ($)": 578899186.47,
+        "Land area below 5m (% of land area)": 7.33,
+        "Population": 183081,
+        "Population below 5m (% of total)": 15.65,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -41,
+            196,
+            237
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.3,
+            1,
+            -0.3
+        ]
+    },
+    "YEM": {
+        "name": "Yemen",
+        "Access to electricity (% of total population)": 39.6,
+        "CO2 emissions per capita (metric tons)": 1.03,
+        "CO2 emissions, total (KtCO2)": 23384.46,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.099410699,
+        "Energy use per capita (kilograms of oil equivalent)": 324.08,
+        "GDP ($)": 26917363956.06,
+        "Land area below 5m (% of land area)": 0.56,
+        "Population": 24052514,
+        "Population below 5m (% of total)": 1.84,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -24,
+            51,
+            75
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2,
+            2,
+            0
+        ]
+    },
+    "ZAF": {
+        "name": "South Africa",
+        "Access to electricity (% of total population)": 75,
+        "CO2 emissions per capita (metric tons)": 8.93,
+        "CO2 emissions, total (KtCO2)": 435877.96,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 1.805650562,
+        "Energy use per capita (kilograms of oil equivalent)": 2920.54,
+        "GDP ($)": 275278721835.79,
+        "Land area below 5m (% of land area)": 0.13,
+        "Population": 49991300,
+        "Population below 5m (% of total)": 0.5,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -78,
+            33,
+            111
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            1.9,
+            2,
+            0.1
+        ]
+    },
+    "ZAR": {
+        "name": "Dem. Rep. Congo",
+        "Access to electricity (% of total population)": 11.1,
+        "CO2 emissions per capita (metric tons)": 0.05,
+        "CO2 emissions, total (KtCO2)": 2816.26,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 0.017890962,
+        "Energy use per capita (kilograms of oil equivalent)": 357,
+        "GDP ($)": 11668379641.83,
+        "Land area below 5m (% of land area)": 0.02,
+        "Population": 65965795,
+        "Population below 5m (% of total)": 0.04,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -48,
+            128,
+            176
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "ZMB": {
+        "name": "Zambia",
+        "Access to electricity (% of total population)": 18.8,
+        "CO2 emissions per capita (metric tons)": 0.15,
+        "CO2 emissions, total (KtCO2)": 1888.51,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": 4.199676744,
+        "Energy use per capita (kilograms of oil equivalent)": 617.47,
+        "GDP ($)": 14640794797.86,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 12926409,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -54,
+            94,
+            148
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.1,
+            2,
+            -0.1
+        ]
+    },
+    "ZWE": {
+        "name": "Zimbabwe",
+        "Access to electricity (% of total population)": 41.5,
+        "CO2 emissions per capita (metric tons)": 0.73,
+        "CO2 emissions, total (KtCO2)": 9075.83,
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)": null,
+        "Energy use per capita (kilograms of oil equivalent)": 762.67,
+        "GDP ($)": 4416000000,
+        "Land area below 5m (% of land area)": 0,
+        "Population": 12571454,
+        "Population below 5m (% of total)": 0,
+        "Population living below $1.25 a day (% of total)": null,
+        "Projected annual precipitation change (2045-2065, mm)": [
+            -81,
+            24,
+            105
+        ],
+        "Projected annual temperature change (2045-2065, Celsius)": [
+            2.2,
+            2,
+            -0.2
+        ]
+    }
+}
