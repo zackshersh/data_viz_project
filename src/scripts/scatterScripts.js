@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import TopoJSON from "../data/TopoJSON.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { simplifyNumber } from "./utils";
+import { colorLerp, colorString, guiltCalc, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class ScatterHandler {
     constructor(svgClass, parentClass){
@@ -22,11 +22,28 @@ export class ScatterHandler {
             b: "GDP ($)"
         };
 
+        this.colors = {
+            noData: {
+                r: 120,
+                g: 120,
+                b: 120
+            },
+            min: {
+                r: 255,
+                g: 172,
+                b: 121
+            },
+            max: {
+                r: 0,
+                g: 0,
+                b: 200
+            }
+        }
+
     }
 
     init(){
         this.svg = d3.select(this.svgClass);
-        console.log(this.svg)
         this.width = +this.svg.attr("width");
         this.height = +this.svg.attr("height");
     
@@ -89,8 +106,8 @@ export class ScatterHandler {
             let string = `
                 <p>${countryData.name}</p>
                 <div class="single-stat-container">
-                    <p>${this.params.a}: ${valA}</p>
-                    <p>${this.params.b}: ${valB}</p>
+                    <p>${this.params.a}: ${simplifyNumber(valA)}</p>
+                    <p>${this.params.b}: ${simplifyNumber(valB)}</p>
                 </div>
             `
             this.tooltip.html(string)
@@ -134,7 +151,7 @@ export class ScatterHandler {
         .domain([minMaxData[this.params.a].min, minMaxData[this.params.a].max])
         .range([margin.left , width ]);
 
-        console.log(this.svg)
+
         this.svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
@@ -158,17 +175,27 @@ export class ScatterHandler {
             if(_country[params.a] && _country[params.b]){
 
                 // picking difference value out of __ to __ array
-                if(Array.isArray(_country[params.b])) _country[params.b] = _country[params.b][2]
-
-
+                if(Array.isArray(_country[params.b])) _country[params.b] = _country[params.b][2];
+                
                 let relX = x(_country[params.a]);
-                let relY = y(Math.abs(_country[params.b]))
+                let relY = y(Math.abs(_country[params.b]));
 
+                
+                let guiltVal = guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
+                
+                if(_country.name == "United States"){
+                    console.log("US -- SCATTER")
+                    console.log(params.a,params.b);
+                    console.log(_country[params.a],_country[params.b])
+                    console.log(guiltVal)
+                    console.log("----")
+                }
                 this.svg.append("circle")
                 .attr("cx", relX)
                 .attr("cy", relY )
                 .attr("r", 4)
-                .style("fill", "#69b3a2")
+                .style("fill", this.calcColor(guiltVal))
+                .attr("guilt",guiltVal)
                 .attr("class","point")
                 .attr("name",_country.name)
                 .attr("country-code",country[0])
@@ -179,8 +206,15 @@ export class ScatterHandler {
 
         // tooltip event listeners have to be added to new points
         this.addToolTipEvents()
-
     };
+
+    calcColor(val){
+        if(val == "no data" || val == null){
+            return colorString(this.colors.noData)
+        } else {
+            return colorLerp(this.colors.min,this.colors.max,val)
+        }
+    }
 
     updateMap(){
         this.generatePlot()

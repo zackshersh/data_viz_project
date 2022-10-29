@@ -1,6 +1,11 @@
+import * as d3 from "d3"
+
 import data from "../data/worldbank_climatedata_cropped.json"
 import refactoredData from "../data/worldbank_climate_crop_refactor_floats.json"
 import dataProps from "../data/worldbank_climate_props.json"
+import minMaxData  from "../data/worldbank_climate_min-max.json"
+
+
 
 function refactorJSON(){
     console.log(data)
@@ -95,18 +100,49 @@ export function normalize(arr){
 export function simplifyNumber(labelValue) {
 
     // Nine Zeroes for Billions
-    return Math.abs(Number(labelValue)) >= 1.0e+9
+    return Math.abs(Number(labelValue)) >= 1.0e+12
 
-    ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + "B"
+    ? (Math.abs(Number(labelValue)) / 1.0e+12).toFixed(2) + " Trillion"
+    
+    : Math.abs(Number(labelValue)) >= 1.0e+9
+
+    ? (Math.abs(Number(labelValue)) / 1.0e+9).toFixed(2) + " Billion"
     // Six Zeroes for Millions 
     : Math.abs(Number(labelValue)) >= 1.0e+6
 
-    ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + "M"
+    ? (Math.abs(Number(labelValue)) / 1.0e+6).toFixed(2) + " Million"
     // Three Zeroes for Thousands
     : Math.abs(Number(labelValue)) >= 1.0e+3
 
-    ? (Math.abs(Number(labelValue)) / 1.0e+3).toFixed(2) + "K"
+    ? Math.abs(Number(labelValue))
 
     : Math.abs(Number(labelValue));
 
+}
+
+function commafy( num ) {
+    var str = num.toString().split('.');
+    if (str[0].length >= 5) {
+        str[0] = str[0].replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+    }
+    if (str[1] && str[1].length >= 5) {
+        str[1] = str[1].replace(/(\d{3})/g, '$1 ');
+    }
+    return str.join('.');
+}
+
+
+export function guiltCalc(paramA,paramB,valA,valB){
+        // Logarithmic Normalization
+        let logA = d3.scaleLog()
+            .domain([minMaxData[paramA].min, minMaxData[paramA].max])
+            .range([0,1]);
+        let logB = d3.scaleLog()
+            .domain([minMaxData[paramB].min, minMaxData[paramB].max])
+            .range([0,1]);
+        
+
+        let val = (logA(valA)*logB(valB));
+
+        return val
 }

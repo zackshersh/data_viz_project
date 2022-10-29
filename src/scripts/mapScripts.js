@@ -3,7 +3,7 @@ import { feature } from "topojson";
 import TopoJSON from "../data/TopoJSON.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { colorLerp, colorString, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
+import { colorLerp, colorString, guiltCalc, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class MapHandler {
     constructor(svgClass, parentClass){
@@ -105,8 +105,8 @@ export class MapHandler {
             let string = `
                 <p>${countryData.name}</p>
                 <div class="single-stat-container">
-                    <p>${this.params.a}: ${valA}</p>
-                    <p>${this.params.b}: ${valB}</p>
+                    <p>${this.params.a}: ${simplifyNumber(valA)}</p>
+                    <p>${this.params.b}: ${simplifyNumber(valB)}</p>
                 </div>
             `
             this.tooltip.html(string)
@@ -170,76 +170,113 @@ export class MapHandler {
         this.updateMap();
     }
 
+    // updateMap(){
+    //     let vals = [];
+    //     this.paths.forEach((path,i) => {
+    //         let countryData = this.data[path.getAttribute("country-code")];
+    //         if(!countryData){
+    //             vals.push(null)
+    //         } else {
+                
+    //             // usually emissions per capita
+    //             let paramA = this.params.a;
+    //             let valA = countryData[paramA];
+
+    //             //accounts for if it is of the types that have an array of data like change in avg temp
+    //             if(Array.isArray(valA) && paramA) {
+    //                 console.log(valA)
+    //             } else {
+    //                 // console.log(valA, "YES")
+    //             }
+
+
+    //             // the varied one
+    //             let paramB = this.params.b;
+    //             let valB = countryData[paramB];
+    //             // if(typeof valB == "object" && paramB) valB = valB[2];
+
+    //             if(Array.isArray(valB) && paramB) {
+    //                 valB = valB[2];
+    //             } else {
+    //                 // console.log(valA, "YES")
+    //             }
+
+    //             if(!valA || !valB){
+    //                 vals.push("no data")
+    //             } else {
+    //                 let minMaxA = minMaxData[paramA];
+    //                 let rangeA = minMaxA.max - minMaxA.min;
+                    
+    //                 let minMaxB = minMaxData[paramB];
+    //                 let rangeB = minMaxB.max - minMaxB.min;
+
+    //                 let a = (valA - minMaxA.min)/rangeA;
+    //                 let b = (valB - minMaxB.min)/rangeB;
+
+
+    //                 vals.push(1/(a*b));
+
+    //             }
+
+    //         }
+    //     })
+
+    //     // Makes it so the lowest value is 0 and highest is 1
+    //     let normalizedVals = normalize(vals)
+    //     this.setColors(normalizedVals);
+    // }
+
     updateMap(){
         let vals = [];
-        this.paths.forEach((path,i) => {
+        this.paths.forEach(path => {
             let countryData = this.data[path.getAttribute("country-code")];
+
             if(!countryData){
                 vals.push(null)
             } else {
-                
-                // usually emissions per capita
-                let paramA = this.params.a;
-                let valA = countryData[paramA];
 
-                //accounts for if it is of the types that have an array of data like change in avg temp
-                if(Array.isArray(valA) && paramA) {
-                    console.log(valA)
+                let paramA = this.params.a; let valA = countryData[paramA];
+                    if(Array.isArray(valA) && paramA && valA) valA = valA[2];
+                let paramB = this.params.b; let valB = countryData[paramB];
+                    if(Array.isArray(valB) && paramB && valB) valB = valB[2];
+
+                if(valA == null || valB == null){
+                    vals.push(null);
                 } else {
-                    // console.log(valA, "YES")
+                    let val = guiltCalc(paramA,paramB,valA,valB)
+                    if(countryData.name == "United States"){
+                        console.log("US -- MAP")
+                        console.log(paramA,paramB);
+                        console.log(valA,valB);
+                        console.log(val)
+                        console.log("----")
+                    }
+                    // vals.push(logA(valA),logB(valB))
+                    vals.push(val);
                 }
 
-
-                // the varied one
-                let paramB = this.params.b;
-                let valB = countryData[paramB];
-                // if(typeof valB == "object" && paramB) valB = valB[2];
-
-                if(Array.isArray(valB) && paramB) {
-                    valB = valB[2];
-                } else {
-                    // console.log(valA, "YES")
-                }
-
-                // console.log(electric);
-                if(!valA || !valB){
-                    vals.push("no data")
-                } else {
-                    let minMaxA = minMaxData[paramA];
-                    let rangeA = minMaxA.max - minMaxA.min;
-                    
-                    let minMaxB = minMaxData[paramB];
-                    let rangeB = minMaxB.max - minMaxB.min;
-
-                    let a = (valA - minMaxA.min)/rangeA;
-                    let b = (valB - minMaxB.min)/rangeB;
-
-                    
-                    // let minMax = minMaxData["GDP ($)"];
-                    // let range = minMax.max - minMax.min;
-                    // let t = (electric - minMax.min)/(range);
-
-                    vals.push(1/(a*b));
-
-                }
 
             }
         })
 
-        // Makes it so the lowest value is 0 and highest is 1
-        let normalizedVals = normalize(vals)
-        this.setColors(normalizedVals);
+        let valsNorm = normalize(vals);
+        this.setColors(valsNorm)
     }
 
     setColors(arr){
 
         this.paths.forEach((path,i) => {
             let t = arr[i];
+            if(t >= 0.9){
+                console.log(path.getAttribute("country"))
+                console.log(t)
+            }
             // console.log(t, path.getAttribute("country"));
             if(t == "no data" || t == null){
-                path.style.fill = colorString(this.colors.noData)
+                path.style.fill = colorString(this.colors.noData);
             } else {
                 path.style.fill = colorLerp(this.colors.min,this.colors.max,t);
+                path.setAttribute("guilt",t)
             }
         })
     }
