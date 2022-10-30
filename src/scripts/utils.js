@@ -111,9 +111,12 @@ export function normalize(arr){
 // }
 
 export function simplifyNumber(labelValue) {
-
     // Nine Zeroes for Billions
-    return Math.abs(Number(labelValue)) >= 1.0e+12
+    return typeof labelValue == "string" ?
+    
+    "No Data"
+    
+    : Math.abs(Number(labelValue)) >= 1.0e+12
 
     ? (Math.abs(Number(labelValue)) / 1.0e+12).toFixed(2) + " Trillion"
     
@@ -127,11 +130,15 @@ export function simplifyNumber(labelValue) {
     // Three Zeroes for Thousands
     : Math.abs(Number(labelValue)) >= 1.0e+3
 
-    ? Math.abs(Number(labelValue))
+    ? Math.abs(Number(labelValue) / 1.0e+3).toFixed(2) + "K"
 
-    : Math.abs(Number(labelValue));
+    : Math.abs(Number(labelValue))
+    
+
 
 }
+
+console.log(simplifyNumber("sjdnfk"))
 
 function commafy( num ) {
     var str = num.toString().split('.');
@@ -164,4 +171,13 @@ export function guiltCalc(paramA,paramB,valA,valB){
     let val = 1-(logA(valA)*(logB(valB)));
     // console.log(val)
     return val
+}
+
+export function roundDec(num,places){
+    if(typeof num != "number"){
+        return num
+    } else {
+        return parseFloat(num.toFixed(places));
+    }
+    
 }

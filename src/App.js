@@ -10,6 +10,7 @@ import { MapHandler } from './scripts/mapScripts';
 import { ScatterHandler } from "./scripts/scatterScripts";
 import ContentWrapper from "./components/ContentWrapper";
 import ToolBar from "./components/ToolBar";
+import Table from "./components/Table";
 
 
 
@@ -20,6 +21,8 @@ function App() {
     
     const [paramA, setParamA] = useState("CO2 emissions, total (KtCO2)");
     const [paramB, setParamB] = useState("GDP ($)");
+
+    const [selection, setSelection] = useState(null);
 
     useEffect(() => {
         mapHandler.init();
@@ -50,6 +53,7 @@ function App() {
             <ToolBar props={toolBarProps} />
             <Map />
             <Scatter />
+            <Table />
         </main>
     </div>
   );

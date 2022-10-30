@@ -14,9 +14,9 @@ function ToolBar({props}) {
     ]
 
     return (
-        <div className='Tool-Bar'>
+        <div className='Tool-Bar Container'>
             <ContentWrapper>
-                <div className='Tool-Bar'>
+                <div>
                     <select value={props.paramB} onChange={props.handleParamChange}>
                         {props.dataProps.map((val, i) => {
                             return <option key={i} value={val}>{val}</option>

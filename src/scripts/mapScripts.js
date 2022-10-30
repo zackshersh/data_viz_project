@@ -32,14 +32,14 @@ export class MapHandler {
                 b: 120
             },
             min: {
-                r: 255,
-                g: 172,
-                b: 121
+                r: 72,
+                g: 102,
+                b: 128
             },
             max: {
-                r: 0,
-                g: 0,
-                b: 200
+                r: 212,
+                g: 100,
+                b: 44
             }
         }
     }
@@ -47,14 +47,19 @@ export class MapHandler {
     init(){
         this.svg = d3.select(this.svgClass);
 
-        this.width = +this.svg.attr("width");
-        this.height = +this.svg.attr("height");
+        // this.width = +this.svg.attr("width");
+        // this.height = +this.svg.attr("height");
+        this.width = document.querySelector(this.parentClass).getBoundingClientRect().width;
+        this.height = document.querySelector(this.parentClass).getBoundingClientRect().height;
         
         this.createTooltip();
 
         this.generateMap();
 
-        this.resizeSVG();
+        document.defaultView.addEventListener("resize",() => {
+            this.resizeSVG()
+            // console.log("Hey")
+        })
     }
 
     setParams(a,b){
@@ -134,10 +139,15 @@ export class MapHandler {
     }
 
 
-    generateMap(scale = 2.5){
+    generateMap(reproject){
+
+        // clearing svg for new map 
+        this.svg.selectAll("*").remove()
+
 
         const projection = d3.geoMercator()
-            .scale(this.width/scale/Math.PI)
+            // .fitSize([this.width,this.height],this.mapData)
+            .scale(this.width/2.5/Math.PI)
             .center([0,0]);
         const pathGenerator = d3.geoPath().projection(projection);
 
@@ -148,6 +158,7 @@ export class MapHandler {
         paths.enter().append('path')
             .attr("d", pathGenerator)
             .attr("class", "country-path")
+        
 
 
         // set country name attribute
@@ -171,64 +182,11 @@ export class MapHandler {
         })
         
         this.updateMap();
-        this.createTooltip();
+        if(!reproject){
+            this.createTooltip();
+        }
     }
 
-    // updateMap(){
-    //     let vals = [];
-    //     this.paths.forEach((path,i) => {
-    //         let countryData = this.data[path.getAttribute("country-code")];
-    //         if(!countryData){
-    //             vals.push(null)
-    //         } else {
-                
-    //             // usually emissions per capita
-    //             let paramA = this.params.a;
-    //             let valA = countryData[paramA];
-
-    //             //accounts for if it is of the types that have an array of data like change in avg temp
-    //             if(Array.isArray(valA) && paramA) {
-    //                 console.log(valA)
-    //             } else {
-    //                 // console.log(valA, "YES")
-    //             }
-
-
-    //             // the varied one
-    //             let paramB = this.params.b;
-    //             let valB = countryData[paramB];
-    //             // if(typeof valB == "object" && paramB) valB = valB[2];
-
-    //             if(Array.isArray(valB) && paramB) {
-    //                 valB = valB[2];
-    //             } else {
-    //                 // console.log(valA, "YES")
-    //             }
-
-    //             if(!valA || !valB){
-    //                 vals.push("no data")
-    //             } else {
-    //                 let minMaxA = minMaxData[paramA];
-    //                 let rangeA = minMaxA.max - minMaxA.min;
-                    
-    //                 let minMaxB = minMaxData[paramB];
-    //                 let rangeB = minMaxB.max - minMaxB.min;
-
-    //                 let a = (valA - minMaxA.min)/rangeA;
-    //                 let b = (valB - minMaxB.min)/rangeB;
-
-
-    //                 vals.push(1/(a*b));
-
-    //             }
-
-    //         }
-    //     })
-
-    //     // Makes it so the lowest value is 0 and highest is 1
-    //     let normalizedVals = normalize(vals)
-    //     this.setColors(normalizedVals);
-    // }
 
     updateMap(){
         let vals = [];
@@ -287,12 +245,10 @@ export class MapHandler {
     }
 
     resizeSVG(){
-        let svgElem = this.svg._groups[0][0]
-        let parentElem = svgElem.parentNode;
+        this.width = this.svg._groups[0][0].parentNode.getBoundingClientRect().width;
+        this.generateMap(true);
+        this.createTooltip()
 
-        let pBox = parentElem.getBoundingClientRect();
-        svgElem.width = pBox
-        console.log(pBox);
     }
 
 }

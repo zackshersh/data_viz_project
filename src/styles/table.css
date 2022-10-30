@@ -1,0 +1,11 @@
+.rdt_Table {
+    font-family: "Balto", Helvetica;
+}
+
+.rdt_TableRow:nth-child(even){
+    background-color: var(--light-2);
+}
+
+.rdt_Pagination {
+    font-family: "Balto", Helvetica;
+}

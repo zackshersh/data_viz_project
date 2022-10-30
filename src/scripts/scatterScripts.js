@@ -29,14 +29,14 @@ export class ScatterHandler {
                 b: 120
             },
             min: {
-                r: 255,
-                g: 172,
-                b: 121
+                r: 40,
+                g: 91,
+                b: 133
             },
             max: {
-                r: 0,
-                g: 0,
-                b: 200
+                r: 212,
+                g: 100,
+                b: 44
             }
         }
 
@@ -49,6 +49,12 @@ export class ScatterHandler {
     
         this.generatePlot();
         this.createTooltip();
+
+        this.resizeSVG()
+
+        document.defaultView.addEventListener("resize",() => {
+            this.resizeSVG();
+        })
     }
 
     setParams(a,b){
@@ -136,10 +142,10 @@ export class ScatterHandler {
 
         
         // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 30, left: 30},
+        var margin = {top: 10, right: 30, bottom: 45, left: 60},
             width = this.width - margin.left - margin.right,
             height = this.height - margin.top - margin.bottom;
-
+        console.log(width, height)
         // append the svg object to the body of the page
         this.svg.attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
@@ -150,11 +156,15 @@ export class ScatterHandler {
         var x = d3.scaleLog()
         .domain([minMaxData[this.params.a].min, minMaxData[this.params.a].max])
         .range([margin.left , width ]);
-
-
         this.svg.append("g")
             .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
+            .call(d3.axisBottom(x))
+            .call(g => g.select(".domain")
+            .attr("stroke","var(--gray)")
+            )
+            .call(g => g.selectAll(".tick")
+                .attr("color","var(--gray)")
+            )
 
         // Add Y axis
         let bMin = minMaxData[this.params.b].min;
@@ -164,8 +174,39 @@ export class ScatterHandler {
             .domain([bMin+0.01,bMax*2])
             .range([ height, 0]);
         this.svg.append("g")
-            .attr("transform", "translate(30,0)")
-            .call(d3.axisLeft(y));
+            .attr("transform", `translate(${margin.left},0)`)
+            .call(d3.axisLeft(y))
+            .call(g => g.select(".domain")
+                .attr("stroke","var(--gray)")
+            )
+            .call(g => g.selectAll(".tick")
+                .attr("color","var(--gray)")
+            )
+
+
+        
+        // labels
+
+        this.svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .attr("y", 6)
+        .attr("dy", "1.25em")
+        .attr("fill","var(--gray)")
+        .attr("x",-height/2)
+        .attr("transform", "rotate(-90)")
+        .text(this.params.b);
+
+        this.svg.append("text")
+        .attr("class", "label")
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .attr("y", height)
+        .attr("dy", "2.5em")
+        .attr("fill","var(--gray)")
+        .attr("x",width/2)
+        .text(this.params.a);
 
         
         let guiltVals = Object.entries(this.data).map(country => {
@@ -192,7 +233,7 @@ export class ScatterHandler {
 
                 
                 let guiltVal = guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
-                
+
 
                 this.svg.append("circle")
                 .attr("cx", relX)
@@ -222,5 +263,12 @@ export class ScatterHandler {
 
     updateMap(){
         this.generatePlot()
+    }
+
+    resizeSVG(){
+        this.width = this.svg._groups[0][0].parentNode.getBoundingClientRect().width;
+        this.height = this.svg._groups[0][0].parentNode.getBoundingClientRect().height;
+
+        this.updateMap()
     }
 }

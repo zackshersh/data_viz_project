@@ -17,7 +17,7 @@ function Map(props) {
         <div className='Map Container'>
             <ContentWrapper>
                 <div className='Map-Parent'>
-                    <svg className="Map-Svg" width={1024} height={480}>
+                    <svg onWheel={(e) => {console.log("HEY")}} className="Map-Svg">
                         <h1>Hey</h1>
                     </svg>
                 </div>

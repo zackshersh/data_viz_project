@@ -1,4 +1,13 @@
 
+:root {
+    --light: white;
+    --light-2: rgb(243, 243, 243);
+    --gray: rgb(112, 112, 112);
+}
+
+* {
+    font-family: "Balto", Helvetica;
+}
 
 
 

@@ -1,7 +1,17 @@
 
-.Map-Parent {
+.Map-Parent, .Scatter-Parent {
     position: relative;
+    height: 80vh;
+    min-height: 300px;
 }
+
+
+.Map-Svg, .Scatter-Svg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red
+}
+
 
 .tooltip {
     border: 1px solid gray;
