@@ -9,7 +9,7 @@ function Scatter({}) {
         <div className='Scatter Container'>
             <ContentWrapper>
                 <div className='Scatter-Parent'>
-                    <svg className="Scatter-Svg" width={1024} height={480}>
+                    <svg className="Scatter-Svg">
                         
                     </svg>
                 </div>

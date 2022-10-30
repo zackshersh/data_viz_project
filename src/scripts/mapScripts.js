@@ -51,7 +51,10 @@ export class MapHandler {
         this.height = +this.svg.attr("height");
         
         this.createTooltip();
+
         this.generateMap();
+
+        this.resizeSVG();
     }
 
     setParams(a,b){
@@ -79,7 +82,7 @@ export class MapHandler {
         
         const pathMove = (e) => {
             if(!tooltipDisplay) return;
-
+ 
             let bbox = e.target.getBBox();
             let parentBox = e.target.parentNode.getBoundingClientRect();
 
@@ -168,6 +171,7 @@ export class MapHandler {
         })
         
         this.updateMap();
+        this.createTooltip();
     }
 
     // updateMap(){
@@ -228,11 +232,13 @@ export class MapHandler {
 
     updateMap(){
         let vals = [];
-        this.paths.forEach(path => {
+        this.paths.forEach((path, i) => {
             let countryData = this.data[path.getAttribute("country-code")];
 
+            let countryVal = null;
+
             if(!countryData){
-                vals.push(null)
+                // vals.push(null)
             } else {
 
                 let paramA = this.params.a; let valA = countryData[paramA];
@@ -241,50 +247,52 @@ export class MapHandler {
                     if(Array.isArray(valB) && paramB && valB) valB = valB[2];
 
                 if(valA == null || valB == null){
-                    vals.push(null);
+                    // vals.push(null);
+
                 } else {
                     let val = guiltCalc(paramA,paramB,valA,valB)
-                    if(countryData.name == "United States"){
-                        console.log("US -- MAP")
-                        console.log(paramA,paramB);
-                        console.log(valA,valB);
-                        console.log(val)
-                        console.log("----")
-                    }
                     // vals.push(logA(valA),logB(valB))
-                    vals.push(val);
+                    countryVal = val;
                 }
-
-
             }
+
+            vals.push(countryVal);
         })
 
         let valsNorm = normalize(vals);
+
+
         this.setColors(valsNorm)
     }
 
     setColors(arr){
 
+        let v = 0;
         this.paths.forEach((path,i) => {
             let t = arr[i];
-            if(t >= 0.9){
-                console.log(path.getAttribute("country"))
-                console.log(t)
-            }
             // console.log(t, path.getAttribute("country"));
             if(t == "no data" || t == null){
                 path.style.fill = colorString(this.colors.noData);
             } else {
                 path.style.fill = colorLerp(this.colors.min,this.colors.max,t);
-                path.setAttribute("guilt",t)
             }
         })
+
     }
 
 
     changeParam(newVal){
         this.params.b = newVal;
         this.updateMap();
+    }
+
+    resizeSVG(){
+        let svgElem = this.svg._groups[0][0]
+        let parentElem = svgElem.parentNode;
+
+        let pBox = parentElem.getBoundingClientRect();
+        svgElem.width = pBox
+        console.log(pBox);
     }
 
 }

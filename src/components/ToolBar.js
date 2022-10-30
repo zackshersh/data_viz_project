@@ -3,7 +3,16 @@ import ContentWrapper from './ContentWrapper';
 
 function ToolBar({props}) {
 
-    console.log(props)
+    const options = [
+        "Access to electricity (% of total population)",
+        "Droughts, floods, extreme temps (% pop. avg. 1990-2009)",
+        "GDP ($)",
+        "Land area below 5m (% of land area)",
+        "Population below 5m (% of total)",
+        "Projected annual precipitation change (2045-2065, mm)",
+        "Projected annual temperature change (2045-2065, Celsius)"
+    ]
+
     return (
         <div className='Tool-Bar'>
             <ContentWrapper>

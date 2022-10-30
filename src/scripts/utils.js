@@ -78,14 +78,27 @@ export function normalize(arr){
 
     let pruned = [];
     arr.forEach(num => {
-        if(num && typeof num != "string") pruned.push(num);
+        if(num && typeof num != "string"){
+            pruned.push(num); 
+        } else {
+            pruned.push(null);
+        }
     })
 
-    let max = Math.max(...pruned); let min = Math.min(...pruned);
+    let max = Math.max(...pruned); let min = Math.min(...pruned.filter(a => a != null));
 
+    
     let norm = [];
 
-    pruned.forEach(num => norm.push((num-min)/(max-min)));
+    pruned.forEach((num) => {
+        if(num && typeof num != "string"){
+            norm.push((num-min)/(max-min))
+        } else {
+            norm.push(null)
+        }
+
+    
+    });
 
     return norm
 }
@@ -133,16 +146,22 @@ function commafy( num ) {
 
 
 export function guiltCalc(paramA,paramB,valA,valB){
-        // Logarithmic Normalization
-        let logA = d3.scaleLog()
-            .domain([minMaxData[paramA].min, minMaxData[paramA].max])
-            .range([0,1]);
-        let logB = d3.scaleLog()
-            .domain([minMaxData[paramB].min, minMaxData[paramB].max])
-            .range([0,1]);
-        
+    // Logarithmic Normalization
 
-        let val = (logA(valA)*logB(valB));
+    // true if a country is more vulnerable with a lower B val
+        // true = GDP, lower gdp means more vulnerable
+        // false = population % below 5 m, higher % means more vulnerable
+    // let bDirection
 
-        return val
+    let logA = d3.scaleLog()
+        .domain([minMaxData[paramA].min, minMaxData[paramA].max])
+        .range([0,1]);
+    let logB = d3.scaleLog()
+        .domain([minMaxData[paramB].min+0.01, minMaxData[paramB].max])
+        .range([0,1]);
+
+
+    let val = 1-(logA(valA)*(logB(valB)));
+    // console.log(val)
+    return val
 }

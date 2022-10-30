@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import TopoJSON from "../data/TopoJSON.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { colorLerp, colorString, guiltCalc, rndmFlt, rndmInt, simplifyNumber } from "./utils";
+import { colorLerp, colorString, guiltCalc, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class ScatterHandler {
     constructor(svgClass, parentClass){
@@ -167,34 +167,38 @@ export class ScatterHandler {
             .attr("transform", "translate(30,0)")
             .call(d3.axisLeft(y));
 
-
         
-        Object.entries(this.data).forEach((country) => {
+        let guiltVals = Object.entries(this.data).map(country => {
+            let params = { ...this.params}
+            let _country = country[1]
+
+            if(Array.isArray(_country[params.b])) _country[params.b] = _country[params.b][2];
+
+            return guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
+        })
+
+        let guiltValsNormalized = normalize(guiltVals)
+        
+        Object.entries(this.data).forEach((country,i) => {
             let params = { ...this.params}
             let _country = country[1]
             if(_country[params.a] && _country[params.b]){
 
                 // picking difference value out of __ to __ array
                 if(Array.isArray(_country[params.b])) _country[params.b] = _country[params.b][2];
-                
+
                 let relX = x(_country[params.a]);
                 let relY = y(Math.abs(_country[params.b]));
 
                 
                 let guiltVal = guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
                 
-                if(_country.name == "United States"){
-                    console.log("US -- SCATTER")
-                    console.log(params.a,params.b);
-                    console.log(_country[params.a],_country[params.b])
-                    console.log(guiltVal)
-                    console.log("----")
-                }
+
                 this.svg.append("circle")
                 .attr("cx", relX)
                 .attr("cy", relY )
                 .attr("r", 4)
-                .style("fill", this.calcColor(guiltVal))
+                .style("fill", this.calcColor(guiltValsNormalized[i]))
                 .attr("guilt",guiltVal)
                 .attr("class","point")
                 .attr("name",_country.name)
