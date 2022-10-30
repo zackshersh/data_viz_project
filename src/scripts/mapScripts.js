@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { feature } from "topojson";
-import TopoJSON from "../data/TopoJSON.json";
+import TopoJSON from "../data/TopoJSON_NoAntarctic.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
 import { colorLerp, colorString, guiltCalc, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
@@ -111,8 +111,8 @@ export class MapHandler {
 
 
             let string = `
-                <p>${countryData.name}</p>
-                <div class="single-stat-container">
+                <b>${countryData.name}</b>
+                <div>
                     <p>${this.params.a}: ${simplifyNumber(valA)}</p>
                     <p>${this.params.b}: ${simplifyNumber(valB)}</p>
                 </div>

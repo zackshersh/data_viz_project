@@ -13,9 +13,3 @@
 }
 
 
-.tooltip {
-    border: 1px solid gray;
-    padding: 8px;
-    background-color: white;
-    pointer-events: none;
-}

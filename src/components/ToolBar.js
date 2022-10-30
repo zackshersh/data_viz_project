@@ -1,6 +1,8 @@
 import React from 'react';
 import ContentWrapper from './ContentWrapper';
 
+import "../styles/toolbar.css"
+
 function ToolBar({props}) {
 
     const options = [
@@ -22,6 +24,11 @@ function ToolBar({props}) {
                             return <option key={i} value={val}>{val}</option>
                         })}
                     </select>
+                    <div className='Fair-Unfair-Container'>
+                        <p>Fair</p>
+                        <div className='Gradient-Legend'></div>
+                        <p>Unfair</p>
+                    </div>
                 </div>
             </ContentWrapper>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-function ContentWrapper({children}) {
+function ContentWrapper({children, small}) {
     return (
-        <div className='Content-Wrapper'>
+        <div className={`Content-Wrapper ${small ? "Content-Wrapper-Small" : ""}`}>
             {children}
         </div>
     );

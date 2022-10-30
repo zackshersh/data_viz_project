@@ -11,6 +11,7 @@ import { ScatterHandler } from "./scripts/scatterScripts";
 import ContentWrapper from "./components/ContentWrapper";
 import ToolBar from "./components/ToolBar";
 import Table from "./components/Table";
+import Intro from "./components/Intro";
 
 
 
@@ -50,6 +51,7 @@ function App() {
     <div className="App">
         <Header />
         <main>
+            <Intro />
             <ToolBar props={toolBarProps} />
             <Map />
             <Scatter />

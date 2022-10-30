@@ -1,6 +1,5 @@
 import * as d3 from "d3";
 
-import TopoJSON from "../data/TopoJSON.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
 import { colorLerp, colorString, guiltCalc, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
@@ -13,7 +12,7 @@ export class ScatterHandler {
         this.parentClass = parentClass;
 
         this.data = data;
-        this.mapData = TopoJSON;
+
 
         this.points = [];
 
@@ -110,8 +109,8 @@ export class ScatterHandler {
             } 
 
             let string = `
-                <p>${countryData.name}</p>
-                <div class="single-stat-container">
+                <b>${countryData.name}</b>
+                <div>
                     <p>${this.params.a}: ${simplifyNumber(valA)}</p>
                     <p>${this.params.b}: ${simplifyNumber(valB)}</p>
                 </div>

@@ -4,6 +4,7 @@ import data from "../data/worldbank_climatedata_cropped.json"
 import refactoredData from "../data/worldbank_climate_crop_refactor_floats.json"
 import dataProps from "../data/worldbank_climate_props.json"
 import minMaxData  from "../data/worldbank_climate_min-max.json"
+import fairnessDirection from "../data/prop_fairness_direction.json"
 
 
 
@@ -155,21 +156,23 @@ function commafy( num ) {
 export function guiltCalc(paramA,paramB,valA,valB){
     // Logarithmic Normalization
 
-    // true if a country is more vulnerable with a lower B val
-        // true = GDP, lower gdp means more vulnerable
-        // false = population % below 5 m, higher % means more vulnerable
-    // let bDirection
-
-    let logA = d3.scaleLog()
+    // 1 means that having a higher value for that property = more fair
+        // ie, higher GDP, means more fair
+    // -1 means having lower values for that property = more fair
+        // ie, lower % below 5 m, means more fair
+    let fairDir = fairnessDirection[paramB];
+        
+        let logA = d3.scaleLog()
         .domain([minMaxData[paramA].min, minMaxData[paramA].max])
         .range([0,1]);
-    let logB = d3.scaleLog()
+        let logB = d3.scaleLog()
         .domain([minMaxData[paramB].min+0.01, minMaxData[paramB].max])
         .range([0,1]);
 
+    if(fairDir == -1) valB = 1/valB;
 
     let val = 1-(logA(valA)*(logB(valB)));
-    // console.log(val)
+    val = val*(1-logA(valA))    // console.log(val)
     return val
 }
 

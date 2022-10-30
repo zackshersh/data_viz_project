@@ -1,0 +1,19 @@
+.Tool-Bar > div > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Fair-Unfair-Container {
+    display: flex;
+    width: 30%;
+    min-width: 50px;
+}
+
+.Gradient-Legend {
+    padding: 2px;
+    width: 100%;
+    min-width: 40px;
+    background: linear-gradient(90deg, rgb(40,91,133),rgb(212,100,44));
+    margin: 0px 4px;
+}
