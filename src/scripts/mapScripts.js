@@ -148,7 +148,7 @@ export class MapHandler {
         const projection = d3.geoMercator()
             // .fitSize([this.width,this.height],this.mapData)
             .scale(this.width/2.5/Math.PI)
-            .center([0,0]);
+            .center([0,70]);
         const pathGenerator = d3.geoPath().projection(projection);
 
         const countries = feature(this.mapData, this.mapData.objects.countries);
@@ -195,8 +195,11 @@ export class MapHandler {
 
             let countryVal = null;
 
+            if(i == 139){
+                console.log(countryData)
+            }
+
             if(!countryData){
-                // vals.push(null)
             } else {
 
                 let paramA = this.params.a; let valA = countryData[paramA];
@@ -204,12 +207,11 @@ export class MapHandler {
                 let paramB = this.params.b; let valB = countryData[paramB];
                     if(Array.isArray(valB) && paramB && valB) valB = valB[2];
 
+
                 if(valA == null || valB == null){
-                    // vals.push(null);
 
                 } else {
                     let val = guiltCalc(paramA,paramB,valA,valB)
-                    // vals.push(logA(valA),logB(valB))
                     countryVal = val;
                 }
             }
@@ -218,7 +220,6 @@ export class MapHandler {
         })
 
         let valsNorm = normalize(vals);
-
 
         this.setColors(valsNorm)
     }

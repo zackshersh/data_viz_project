@@ -3,6 +3,9 @@ import ContentWrapper from './ContentWrapper';
 
 import "../styles/toolbar.css"
 
+import globe from "../assets/globe.png"
+import scatter from "../assets/scatter.png"
+
 function ToolBar({props}) {
 
     const options = [
@@ -15,17 +18,27 @@ function ToolBar({props}) {
         "Projected annual temperature change (2045-2065, Celsius)"
     ]
 
+    const handleModeButton = (e) => {
+        props.setMode(e.currentTarget.value);
+    }
+
     return (
         <div className='Tool-Bar Container'>
             <ContentWrapper>
                 <div>
-                    <select value={props.paramB} onChange={props.handleParamChange}>
-                        {props.dataProps.map((val, i) => {
-                            return <option key={i} value={val}>{val}</option>
-                        })}
-                    </select>
+                    <div className='ModeButtons-and-Params'>
+                        <div className='Mode-Buttons'>
+                            <button className={` ${props.mode == "map" ? "active" : ""}`} value="map" onMouseDown={handleModeButton}><img src={globe}></img></button>
+                            <button className={` ${props.mode == "scatter" ? "active" : ""}`} value="scatter" onMouseDown={handleModeButton}><img src={scatter}></img></button>
+                        </div>
+                        <select className='Parameter-Select' value={props.paramB} onChange={props.handleParamChange}>
+                            {options.map((val, i) => {
+                                return <option key={i} value={val}>{val}</option>
+                            })}
+                        </select>
+                    </div>
                     <div className='Fair-Unfair-Container'>
-                        <p>Fair</p>
+                        <p>"Fair"</p>
                         <div className='Gradient-Legend'></div>
                         <p>Unfair</p>
                     </div>

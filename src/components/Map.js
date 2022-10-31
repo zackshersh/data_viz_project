@@ -8,16 +8,13 @@ import dataProps from "../data/worldbank_climate_props.json"
 
 import "../styles/map.css"
 
-function Map(props) {
-
-
-
+function Map({mode}) {
 
     return (
-        <div className='Map Container'>
+        <div className={`Map Container ${mode == "map" || mode == null ? "" : "hidden"}`}>
             <ContentWrapper>
                 <div className='Map-Parent'>
-                    <svg onWheel={(e) => {console.log("HEY")}} className="Map-Svg">
+                    <svg className="Map-Svg">
                         <h1>Hey</h1>
                     </svg>
                 </div>

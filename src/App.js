@@ -25,11 +25,14 @@ function App() {
 
     const [selection, setSelection] = useState(null);
 
+    const [mode,setMode] = useState(null);
+
     useEffect(() => {
         mapHandler.init();
         mapHandler.setParams(paramA,paramB);
         scatterHandler.init();
         scatterHandler.setParams(paramA,paramB);
+        setMode("map")
     },[]);
 
     const handleParamChange = (e) => {
@@ -44,7 +47,9 @@ function App() {
         paramA: paramA,
         paramB: paramB,
         handleParamChange: handleParamChange,
-        dataProps: dataProps
+        dataProps: dataProps,
+        mode: mode,
+        setMode: setMode
     }
 
   return (
@@ -52,9 +57,14 @@ function App() {
         <Header />
         <main>
             <Intro />
-            <ToolBar props={toolBarProps} />
-            <Map />
-            <Scatter />
+            <div className="Graphs-and-Toolbar">
+                <ToolBar props={toolBarProps} />
+                <div className="Graphs-Container">
+                    <Map mode={mode}/>
+                    <Scatter mode={mode} />
+                    <div className="Plot-Spacer"></div>
+                </div>
+            </div>
             <Table />
         </main>
     </div>

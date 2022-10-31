@@ -170,9 +170,11 @@ export function guiltCalc(paramA,paramB,valA,valB){
         .range([0,1]);
 
     if(fairDir == -1) valB = 1/valB;
-
+    
     let val = 1-(logA(valA)*(logB(valB)));
-    val = val*(1-logA(valA))    // console.log(val)
+
+    val = val*(1-(logA(valA)+0.0001))    // 0.0001 added because the log of the highest CO2 producer is just 1 which cancels out and multiplies by 0 leaving 0
+
     return val
 }
 

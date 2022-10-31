@@ -1,0 +1,67 @@
+
+.Header {
+    background-color: #f1f3f2;
+    max-height: 65.5px;
+    height: 65.5px;
+}
+
+.Header > .Content-Wrapper {
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+.Logo-Container {
+    padding: 8px 16px;
+    background-color: var(--yellow);
+    display: inline-block;
+    /* position: absolute; */
+    box-sizing: content-box;
+}
+
+.Vox-Logo {
+    height: 70px;
+    width: 100px;
+    max-width: 100px;
+    padding: 8px 0;
+}
+
+nav {
+    display: flex;
+    height: 65.5px;
+    align-items: center;
+    width: 60%;
+    padding: 0px 16px
+}
+
+nav > p {
+    margin: 0px 12px;
+    font-size: 11.7px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--gray)
+}
+
+.More-Actions {
+    justify-self: flex-end;
+    flex-grow: 1;
+    height: 65.5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.More-Actions > button {
+    background-color: var(--blue);
+    font-family: "Balto";
+    font-weight: 600;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 32px;
+    border-radius: 4px;
+    align-self: center;
+    /* transform: translateY(calc((65.5px/2) - 16px)); */
+}

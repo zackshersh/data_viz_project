@@ -3,10 +3,10 @@ import ContentWrapper from './ContentWrapper';
 
 import "../styles/scatter.css"
 
-function Scatter({}) {
+function Scatter({mode}) {
 
     return (
-        <div className='Scatter Container'>
+        <div className={`Scatter Container ${mode == "scatter" || mode == null ? "" : "hidden"}`}>
             <ContentWrapper>
                 <div className='Scatter-Parent'>
                     <svg className="Scatter-Svg">

@@ -1,7 +1,18 @@
 .Tool-Bar > div > div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.Tool-Bar > .Content-Wrapper {
+    padding-bottom: 0px;
+}
+
+
+.ModeButtons-and-Params {
+    display: flex;
+
 }
 
 .Fair-Unfair-Container {
@@ -13,7 +24,48 @@
 .Gradient-Legend {
     padding: 2px;
     width: 100%;
+    height: 1rem;
     min-width: 40px;
     background: linear-gradient(90deg, rgb(40,91,133),rgb(212,100,44));
     margin: 0px 4px;
+}
+
+.Parameter-Select {
+    padding: 4px;
+    width: 200px;
+    margin-left: 24px;
+    border-radius: 8px;
+    background-color: buttonface;
+}
+
+.Parameter-Select:focus{
+    outline: none
+}
+
+.Mode-Buttons {
+    display: flex;
+}
+
+.Mode-Buttons > button {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray);
+}
+
+.active {
+    background-color: var(--gray-3);
+}
+
+.Mode-Buttons > button:first-child {
+    border-radius: 8px 0 0 8px;
+    border-right: 0px;
+}
+.Mode-Buttons > button:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.Mode-Buttons > button > img {
+    width: 24px;
 }
