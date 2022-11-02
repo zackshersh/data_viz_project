@@ -3,7 +3,7 @@ import { feature } from "topojson";
 import TopoJSON from "../data/TopoJSON_NoAntarctic.json";
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { colorLerp, colorString, guiltCalc, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
+import { colorLerp, colorString, guiltCalc, indexSort, lerp, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class MapHandler {
     constructor(svgClass, parentClass){
@@ -19,6 +19,10 @@ export class MapHandler {
 
         this.countryNum = Object.entries(this.data).length;
         this.pathNum = this.mapData.objects.countries.geometries.length;
+
+        // kinda weird syntax
+            // values are 1-0
+        this.filter = 1
 
         this.params = {
             a: "CO2 emissions, total (KtCO2)",
@@ -144,14 +148,16 @@ export class MapHandler {
         // clearing svg for new map 
         this.svg.selectAll("*").remove()
 
+        const countries = feature(this.mapData, this.mapData.objects.countries);
+        let b = d3.geoBounds(countries);
+        let s = .95 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height);
+        let t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2];
 
         const projection = d3.geoMercator()
-            // .fitSize([this.width,this.height],this.mapData)
-            .scale(this.width/2.5/Math.PI)
-            .center([0,70]);
+            .fitSize([this.width,this.height],countries)
+            // .translate(t)
         const pathGenerator = d3.geoPath().projection(projection);
 
-        const countries = feature(this.mapData, this.mapData.objects.countries);
 
         const paths = this.svg.selectAll("path")
             .data(countries.features);
@@ -161,11 +167,13 @@ export class MapHandler {
         
 
 
+
         // set country name attribute
         let countryPaths = this.svg.selectAll("path")._groups[0];
         countryPaths.forEach((path,i) => {
             let countryName = this.mapData.objects.countries.geometries[i].properties.name;
             path.setAttribute("country",countryName);
+
 
             Object.entries(data).forEach(i => {
                 let obj = i[1];
@@ -226,11 +234,27 @@ export class MapHandler {
 
     setColors(arr){
 
+
+        // gets top or bottom 25% or 50 or whatever
+        let orderedIndeces = indexSort(arr);
+        let filterValue = Math.abs(this.filter); let filterSign = Math.sign(this.filter);
+        console.log(filterSign)
+        // indeces of the values that do fufill the filter
+        let fufillFilter;
+        let len = orderedIndeces.length
+        let subLength = Math.round(orderedIndeces.length * filterValue);
+        console.log(subLength)
+        if(filterSign < 0){
+            fufillFilter = orderedIndeces.slice(0, subLength);
+        } else {
+            fufillFilter = orderedIndeces.slice(len-(len*filterValue), len)
+        }
+        console.log(fufillFilter)
         let v = 0;
         this.paths.forEach((path,i) => {
             let t = arr[i];
             // console.log(t, path.getAttribute("country"));
-            if(t == "no data" || t == null){
+            if(t == "no data" || t == null || !fufillFilter.includes(i)){
                 path.style.fill = colorString(this.colors.noData);
             } else {
                 path.style.fill = colorLerp(this.colors.min,this.colors.max,t);
@@ -246,10 +270,16 @@ export class MapHandler {
     }
 
     resizeSVG(){
-        this.width = this.svg._groups[0][0].parentNode.getBoundingClientRect().width;
+        let parentBounds = this.svg._groups[0][0].parentNode.getBoundingClientRect();
+        this.width = parentBounds.width;
+        this.height = parentBounds.height;
         this.generateMap(true);
         this.createTooltip()
+    }
 
+    setFilter(val){
+        this.filter = val;
+        this.generateMap();
     }
 
 }

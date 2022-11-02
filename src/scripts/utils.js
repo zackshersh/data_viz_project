@@ -186,3 +186,22 @@ export function roundDec(num,places){
     }
     
 }
+
+
+export function indexSort(arr){
+    var len = arr.length;
+    var indices = new Array(len);
+    for (var i = 0; i < len; ++i) indices[i] = i;
+        indices.sort(function (a, b) { return arr[a] < arr[b] ? -1 : arr[a] > arr[b] ? 1 : 0; });
+    
+    let noNull = [];
+    indices.forEach(index => {
+        if(arr[index] != null){
+            noNull.push(index)
+        }
+    })
+
+
+    return noNull;
+
+}

@@ -103,7 +103,6 @@ function Table(props) {
 
     }
 
-    console.log(data)
 
     return (
         <div className='Table Container'>

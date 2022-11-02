@@ -29,3 +29,10 @@
 }
 
 
+
+
+@media (max-width: 600px){
+    .Map-Parent,.Scatter-Parent,.Plot-Spacer {
+        height: 50vh;
+    }
+}

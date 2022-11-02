@@ -1,8 +1,11 @@
+
+
 .Tool-Bar > div > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative
 }
 
 .Tool-Bar > .Content-Wrapper {
@@ -12,28 +15,61 @@
 
 .ModeButtons-and-Params {
     display: flex;
+    /* align-items: center; */
+}
 
+.ModeButtons-and-Params > div > label {
+    align-self: center;
+    margin: 0px 8px 0px 24px;
+    font-size: 14px;
+    color: var(--gray)
 }
 
 .Fair-Unfair-Container {
     display: flex;
     width: 30%;
     min-width: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Fair-Unfair-Container > p {
+    font-size: 12px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    display: inline-block;
+}
+
+.Fair-Unfair-Container > p:first-child {
+    text-align: end;
+    cursor: pointer;
+}
+
+.Fair-Tooltip {
+    width: 200px;
+    position: absolute;
+    z-index: 12;
+}
+
+.Fair-Tooltip > p {
+    font-size: 12px;
 }
 
 .Gradient-Legend {
     padding: 2px;
-    width: 100%;
+    width: 60%;
     height: 1rem;
-    min-width: 40px;
+    min-width: 30px;
     background: linear-gradient(90deg, rgb(40,91,133),rgb(212,100,44));
     margin: 0px 4px;
 }
 
 .Parameter-Select {
     padding: 4px;
-    width: 200px;
-    margin-left: 24px;
+    width: 15vw;
+    max-width: 200px;
+    min-width: 100px;
     border-radius: 8px;
     background-color: buttonface;
 }
@@ -68,4 +104,31 @@
 
 .Mode-Buttons > button > img {
     width: 24px;
+}
+
+@media (max-width: 750px){
+    .Fair-Unfair-Container {
+        width: 100%;
+        margin-top: 16px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 600px){
+    .ModeButtons-and-Params {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Fair-Unfair-Container {
+        width: 100%;
+        margin-top: 16px;
+        justify-content: center;
+    }
+
+    .Select-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }

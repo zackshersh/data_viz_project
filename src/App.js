@@ -12,6 +12,7 @@ import ContentWrapper from "./components/ContentWrapper";
 import ToolBar from "./components/ToolBar";
 import Table from "./components/Table";
 import Intro from "./components/Intro";
+import Footer from "./components/Footer";
 
 
 
@@ -23,7 +24,7 @@ function App() {
     const [paramA, setParamA] = useState("CO2 emissions, total (KtCO2)");
     const [paramB, setParamB] = useState("GDP ($)");
 
-    const [selection, setSelection] = useState(null);
+    const [filter, setFilter] = useState(1);
 
     const [mode,setMode] = useState(null);
 
@@ -43,13 +44,21 @@ function App() {
         setParamB(val);
     }
 
+    const handleFilterChange = (e) => {
+        mapHandler.setFilter(parseFloat(e.target.value))
+        scatterHandler.setFilter(parseFloat(e.target.value))
+        setFilter(e.target.value)
+    }
+
     const toolBarProps = {
         paramA: paramA,
         paramB: paramB,
         handleParamChange: handleParamChange,
         dataProps: dataProps,
         mode: mode,
-        setMode: setMode
+        setMode: setMode,
+        filter: filter,
+        handleFilterChange: handleFilterChange
     }
 
   return (
@@ -67,6 +76,7 @@ function App() {
             </div>
             <Table />
         </main>
+        <Footer />
     </div>
   );
 }

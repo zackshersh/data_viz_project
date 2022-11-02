@@ -3,6 +3,8 @@ import ContentWrapper from './ContentWrapper';
 
 import "../styles/header.css"
 
+import search from "../assets/search.svg"
+
 function Header(props) {
     return (
         <div className='Header Container'>
@@ -18,10 +20,11 @@ function Header(props) {
                         <p>Even Better</p>
                         <p>Recode</p>
                         <p>The Goods</p>
-                        <p>More</p>
+                        <p className='More'>More</p>
                     </nav>
                     <div className='More-Actions'>
                         <button>Give</button>
+                        <img className='Search-Icon' src={search}></img>
                     </div>
                 </header>
             </ContentWrapper>

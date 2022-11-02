@@ -1,0 +1,10 @@
+.Footer {
+    background-color: var(--light-gray);
+    border-top: 6px solid var(--yellow);
+    color: var(--gray);
+    padding: 20px 12px 36px 12px;
+}
+
+.Footer > div > p {
+    margin-top: 8px ;
+}

@@ -2,7 +2,7 @@ import * as d3 from "d3";
 
 import data from "../data/worldbank_climate_crop_refactor_floats.json";
 import minMaxData from "../data/worldbank_climate_min-max.json";
-import { colorLerp, colorString, guiltCalc, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
+import { colorLerp, colorString, guiltCalc, indexSort, normalize, rndmFlt, rndmInt, simplifyNumber } from "./utils";
 
 export class ScatterHandler {
     constructor(svgClass, parentClass){
@@ -13,6 +13,7 @@ export class ScatterHandler {
 
         this.data = data;
 
+        this.filter = 1;
 
         this.points = [];
 
@@ -217,7 +218,8 @@ export class ScatterHandler {
             return guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
         })
 
-        let guiltValsNormalized = normalize(guiltVals)
+        let guiltValsNormalized = normalize(guiltVals);
+        let fufillFilter = this.filteredIndicies(guiltValsNormalized);
         
         Object.entries(this.data).forEach((country,i) => {
             let params = { ...this.params}
@@ -233,6 +235,7 @@ export class ScatterHandler {
                 
                 let guiltVal = guiltCalc(params.a,params.b,_country[params.a],_country[params.b]);
 
+                if(!fufillFilter.includes(i)) return;
 
                 this.svg.append("circle")
                 .attr("cx", relX)
@@ -252,6 +255,24 @@ export class ScatterHandler {
         this.addToolTipEvents()
     };
 
+    filteredIndicies(arr){
+        let orderedIndeces = indexSort(arr);
+        let filterValue = Math.abs(this.filter); let filterSign = Math.sign(this.filter);
+        console.log(filterSign)
+        // indeces of the values that do fufill the filter
+        let fufillFilter;
+        let len = orderedIndeces.length
+        let subLength = Math.round(orderedIndeces.length * filterValue);
+        console.log(subLength)
+        if(filterSign < 0){
+            fufillFilter = orderedIndeces.slice(0, subLength);
+        } else {
+            fufillFilter = orderedIndeces.slice(len-(len*filterValue), len)
+        }
+
+        return fufillFilter;
+    }
+
     calcColor(val){
         if(val == "no data" || val == null){
             return colorString(this.colors.noData)
@@ -270,4 +291,10 @@ export class ScatterHandler {
 
         this.updateMap()
     }
+
+    setFilter(val){
+        this.filter = val;
+        this.updateMap();
+    }
+
 }

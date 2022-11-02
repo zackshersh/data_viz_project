@@ -6,7 +6,9 @@
     --gray-2: #666666;
     --gray-3: #c7c7c7;
     --blue: #4f7177;
-    --yellow: #fff200
+    --blue-2: #33555a;
+    --yellow: #fff200;
+    --light-gray: #f1f3f2;
 }
 
 * {
@@ -14,6 +16,10 @@
     margin-block-start: 0px;
     margin-block-end: 0px;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
 }
 
 h1 {
@@ -35,6 +41,12 @@ h2 {
 a, a:visited, a:active {
     color: var(--blue);
     text-decoration: none;
+}
+
+.superscript {
+    transform: translateY(1rem);
+    color: var(--blue);
+    margin-left: 0.1rem;
 }
 
 
